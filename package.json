@@ -1,0 +1,30 @@
+{
+  "name": "vuepress-doc",
+  "version": "1.0.0",
+  "description": "Erzähle deine Geschichten mit Storytellr.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "serve": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "author": "Frank Zinsli",
+  "license": "ISC",
+  "devDependencies": {
+    "@vuepress/plugin-nprogress": "^1.8.2",
+    "@vuepress/plugin-pwa": "^1.8.2",
+    "@vuepress/plugin-register-components": "^1.8.2",
+    "node-sass": "^5.0.0",
+    "sass-loader": "^11.0.1",
+    "vuepress": "^1.8.1",
+    "vuepress-plugin-social-share": "^1.0.0"
+  },
+  "dependencies": {
+    "@vuepress/plugin-medium-zoom": "^1.8.2",
+    "vuepress-plugin-code-copy": "^1.0.6",
+    "vuepress-plugin-code-switcher": "^1.0.5",
+    "vuepress-plugin-container": "^2.1.5",
+    "vuepress-plugin-img-lazy": "^1.0.4",
+    "vuepress-plugin-robots": "^1.0.1"
+  }
+}
