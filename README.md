@@ -21,7 +21,9 @@
 ---
 
 ## Beschreibung
-
+Storytellr.js ist eine JavaScript-Bibliothek für das Storytelling im Web. 
+Die Bibliothek wurde für Multimedia Production Studenten der FHGR Chur programmiert.
+Sie soll den Studenten auf eine einfache Art und Weise ermöglichen, Ihre Projekte und Geschichten im Web zu erzählen.
 
 ## Quick start
 1. Kopiere den folgenden CSS `<link>` in den `<head>` Bereich deiner Webseite.
