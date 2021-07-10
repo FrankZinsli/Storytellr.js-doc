@@ -9,7 +9,7 @@ Damit du ein Video von **Vimeo** als Hintergrund-Video nutzen kannst, benötigst
 :::
 
 ::: danger YouTube
-Wenn du ein **YouTube** Video als Hintergrund-Video nutzen möchtest, dann muss ich dich leider endtäuschen. YouTube bietet keine
+Wenn du ein **YouTube** Video als Hintergrund-Video nutzen möchtest, dann muss ich dich leider enttäuschen. YouTube bietet keine
 Option, damit die Hintergrund-Videos auf allen Geräten funktionieren.
 :::
 

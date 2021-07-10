@@ -144,7 +144,7 @@ module.exports = {
                 ]
             },
         ],
-        repo: 'https://github.com/FrankZinsli/Storytellr.js',
+        repo: 'https://github.com/FrankZinsli/Storytellr.js-Project',
         repoLabel: 'GitHub',
         smoothScroll: true,
     },
