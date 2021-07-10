@@ -116,4 +116,3 @@ Die folgenden **CSS-Klassen** können für ein individuelles Styling genutzt wer
 | `.story-video-container` | Container für Videos |
 | `.story-vimeo-header-player` | Klasse für das `<iframe>` Element |
 | `.story-header-video-text` | Klasse für den Text auf dem Header Element |
-

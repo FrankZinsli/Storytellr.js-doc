@@ -26,17 +26,15 @@ export default {
   z-index: 1;
   font-family: Raleway, Arial, Helvetica, sans-serif;
   color: #fff;
-  font-size: 1rem;
   text-align: center;
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: #fff;
   font-size: 20px;
   padding: 10px;
   border-radius: 4px;
-  background-color: #90be6d;
-  
+  background-color: #f3722c;
+
 }
 
 .refreshIcon {
@@ -65,6 +63,7 @@ export default {
     font-family: Raleway, Arial, Helvetica, sans-serif;
     font-size: 1rem;
     margin: 0px;
+    color: black;
 }
 
 </style>
