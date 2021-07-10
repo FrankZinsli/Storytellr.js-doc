@@ -148,7 +148,6 @@ module.exports = {
         repoLabel: 'GitHub',
         smoothScroll: true,
     },
-
     markdown: {
         lineNumbers: true
     },
