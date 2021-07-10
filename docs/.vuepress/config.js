@@ -148,7 +148,7 @@ module.exports = {
                 ]
             },
         ],
-        repo: 'https://gitlab.com/foo/bar',
+        repo: 'https://github.com/FrankZinsli/Storytellr.js',
         repoLabel: 'GitHub',
         smoothScroll: true,
     },

@@ -1,5 +1,6 @@
 ---
-title: Über
+sidebar: false
+title: Über Storytellr
 meta: 
   - name: description
     content: Dies ist die Beschreibung
@@ -8,7 +9,6 @@ meta:
 ---
 
 # Über Storytellr
-[[toc]]
 
 ## Wie ist Storytellr entstanden?
 
