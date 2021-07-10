@@ -1,3 +1,12 @@
+---
+title: Erste Schritte
+meta:
+- name: description
+  content: Hier erfährst du, wie du Storytellr.js in dein eigenes Projekt integrierst.
+- name: Keywords
+  content: Storytellr.js Storytellr MMP Storytelling Getting-Started
+---
+
 # Erste Schritte
 
 [[toc]]
@@ -7,11 +16,15 @@ Du hast dafür zwei Möglichkeiten. Entweder kannst du die Bibliothek herunterla
 Projekt integrieren, oder du kannst ein Content Delivery Network (kurz CDN) nutzen.
 
 ## Download
-Unter folgendem Link findest du das GitHub-Repository von Storytellr.js. Du kannst den Code von hier herunterladen.
+Wenn du Storytellr.js lokal in dein Projekt einbinden möchtest, dann kannst du die Bibliothekt hier herunterladen.
 
-<a href="">Storytellr.js - Download</a>
+<a class="button-a" href="https://github.com/FrankZinsli/Storytellr.js/archive/refs/heads/main.zip">
+  <button>
+    Storytellr.js - Download
+  </button>
+</a>
 
-## Quick start
+## Quick start :rocket:
 1. Kopiere den folgenden CSS `<link>` in den `<head>` Bereich deiner Webseite.
 
 *CDN*

@@ -21,6 +21,7 @@ module.exports = {
             lang: 'de-De',
             title: 'Storytellr.js',
             description: 'Die JavaScript-Bibliothek für Geschichtenerzähler',
+            keywords: 'Storytellr.js Storytellr MMP Storytelling Einführung'
         },
     },
     head: [
@@ -56,10 +57,6 @@ module.exports = {
                 message: "Neuer Inhalt ist verfügbar.",
                 buttonText: "Aktualisieren"
                 },
-                '/en/': {
-                message: "New content is available.",
-                buttonText: "Refresh"
-                }
             }
         }],
         ['social-share', {
@@ -90,7 +87,6 @@ module.exports = {
             before: info => `<div class="theorem"><p class="title">${info}</p>`,
             after: '</div>',
         }],
-        ['@vuepress/medium-zoom'],
         ['robots', {
             host: "https://storytellr.frankzinsli.ch",
             disallowAll: true,

@@ -1,8 +1,8 @@
 ---
 title: Guide
 meta: 
-  - name: Mit dem Storytellr-Guide erfährst du wie die verschiedenen Storytelling-Komponenten eingesetzt werden.
-    content: Dies ist die Beschreibung
+  - name: description
+    content: Mit dem Storytellr-Guide erfährst du wie die verschiedenen Storytelling-Komponenten eingesetzt werden.
   - name: Keywords
     content: Storytellr.js MMP-Storytelling Guide
 ---

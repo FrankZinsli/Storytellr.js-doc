@@ -3,7 +3,7 @@ home: true
 heroImage: /assets/logo/b_logo.svg
 heroText: Erzähle deine Geschichte
 tagline: JavaScript-Bibliothek für Storytelling im Web
-actionText: Get Started →
+actionText: Jetzt starten →
 actionLink: /guide/getting-started/
 features:
 - title: Storytellr.js
