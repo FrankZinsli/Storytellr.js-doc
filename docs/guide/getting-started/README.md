@@ -18,7 +18,7 @@ Projekt integrieren, oder du kannst ein Content Delivery Network (kurz CDN) nutz
 ## Download
 Wenn du Storytellr.js lokal in dein Projekt einbinden möchtest, dann kannst du die Bibliothekt hier herunterladen.
 
-<a class="button-a" href="https://github.com/FrankZinsli/Storytellr.js/archive/refs/heads/main.zip">
+<a class="button-a" href="https://github.com/FrankZinsli/Storytellr.js/archive/refs/heads/master.zip">
   <button>
     Storytellr.js - Download
   </button>
@@ -47,4 +47,37 @@ Wenn du Storytellr.js lokal in dein Projekt einbinden möchtest, dann kannst du 
 *Lokal*
 ```html
 <script src="../path/to/storytellr.min.js" crossorigin="anonymous"></script>
+```
+
+## Starter Template
+Möchtest du keine Zeit verschwenden und direkt mit dem entwickeln deiner Storytelling-Webseite starten? Dann
+nutze das Starter Template.
+
+Du kannst den Code kopieren und nach deinen eigenen Vorstellungen anpassen.
+```html
+<!doctype html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1" name="viewport">
+    <title>Titel</title>
+    <link href="style/storytellr.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <header class="story-header" id="YourHeaderImageSlideshowId">
+    <h1 class="story-text-h1">Titel</h1>
+    <h2 class="story-text-h2">Untertitel</h2>
+  </header>
+  
+  <main class="story-container">
+    <section class="story-section">
+      <h3 class="story-text-h3">Deine Section</h3>   
+    </section>
+  </main>
+      
+  <script src="script/storytellr.min.js"></script>
+  <script>// Aufruf der Storytellr-Funktionen</script>
+</body>
+</html>
 ```
