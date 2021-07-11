@@ -1,4 +1,6 @@
 # Video
+![Video in Storytellr.js](../../assets/illustration/undraw_Video_streaming.svg)
+
 Videos können den Nutzer mitreisen. Nutze Videos um Bewegung und Schwung in deine Geschichte zu bringen.
 Storytellr.js bietet verschiedene Möglichkeiten, ein Video auf deiner Webseite zu platzieren.
 Neben **lokal** gehosteten Videos, kannst du auch Videos von **YouTube** und **Vimeo** einfach einsetzen.

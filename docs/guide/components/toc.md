@@ -1,4 +1,6 @@
 # Table of Contents
+![Table of Contents in Storytellr.js](../../assets/illustration/undraw_road_sign.svg)
+
 Für das Storytelling auf einer Webseite ist es wichtig, dass der Nutzer schnell weiss, um was es geht. Mit einem Inhaltsverzeichnis (TOC)
 weiss der Nutzer direkt, was ihn erwartet.
 

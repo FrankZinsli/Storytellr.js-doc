@@ -1,4 +1,5 @@
 # Multimedial
+![Audio in Storytellr.js](../../assets/illustration/undraw_media_player.svg)
 
 [[toc]]
 

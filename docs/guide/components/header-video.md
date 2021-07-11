@@ -1,4 +1,6 @@
 # Header-Video
+![Header-Video in Storytellr.js](../../assets/illustration/undraw_online_media.svg)
+
 Um ein Vollbild Header-Video in deiner Storytelling-Webseite zu integrieren hast du zwei Möglichkeiten.
 Einerseits kannst du dafür ein lokales Video verwenden oder du kannst ein Video von **Vimeo** nutzen.
 

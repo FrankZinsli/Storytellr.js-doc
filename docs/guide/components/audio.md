@@ -1,4 +1,6 @@
 # Audio
+![Audio in Storytellr.js](../../assets/illustration/undraw_audio_player.svg)
+
 
 [[toc]]
 

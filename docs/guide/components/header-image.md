@@ -1,4 +1,6 @@
 # Header Foto
+![Header-Image in Storytellr.js](../../assets/illustration/undraw_Images.svg)
+
 Ein impressives **Header-Foto** kann beim Rezipienten genauso gut aufgenommen werden wie ein Video.
 Wichtig ist dabei, dass die Qualität stimmt und die Sinne und Emotionen angeregt werden.
 

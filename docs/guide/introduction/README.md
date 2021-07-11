@@ -8,6 +8,8 @@ meta:
 ---
 
 # Einführung
+![Einführung in Storytellr.js](../../assets/illustration/undraw_Status_update.svg)
+
 ## Was ist Storytellr?
 Storytellr ist eine JavaScript-Bibliothek für Multimedia Production (kurz MMP) Studenten. 
 Sie soll den Studierenden das präsentieren von Projekten oder das Erzählen einer Geschichte im Web vereinfachen.

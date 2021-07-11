@@ -33,7 +33,7 @@ export default {
   font-size: 20px;
   padding: 10px;
   border-radius: 4px;
-  background-color: #f3722c;
+  background-color: #f3722c !important;
 
 }
 
@@ -63,7 +63,7 @@ export default {
     font-family: Raleway, Arial, Helvetica, sans-serif;
     font-size: 1rem;
     margin: 0px;
-    color: black;
+    color: black !important;
 }
 
 </style>

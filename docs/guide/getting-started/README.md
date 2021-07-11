@@ -8,6 +8,7 @@ meta:
 ---
 
 # Erste Schritte
+![Erste Schritte mit Storytellr.js](../../assets/illustration/undraw_maker_launch.svg)
 
 [[toc]]
 
@@ -24,7 +25,7 @@ Wenn du Storytellr.js lokal in dein Projekt einbinden möchtest, dann kannst du 
   </button>
 </a>
 
-## Quick start :rocket:
+## Quick start
 1. Kopiere den folgenden CSS `<link>` in den `<head>` Bereich deiner Webseite.
 
 *CDN*

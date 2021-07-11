@@ -15,7 +15,7 @@ Im grunde besitzt jeder Komponent **eine oder mehrere Klassen**, die das Styling
 die etwas komplizierter aufgebaut sind oder auf spezielle Funktionalitäten angewiesen sind benötigen 
 zusätzlich den **Aufruf einer Storytellr-Funktion**.
 
-![Wie funktioniert Storytellr.js](../assets/images/image5.jpg)
+![Wie Storytellr.js funktioniert](../assets/illustration/undraw_navigator.svg)
 
 Im weiteren Verlauf dieses Guides findest du alle Komponenten, die mit Storytellr genutzt werden können. Jeder Komponent wird beschrieben
 und es wird aufgezeigt, wie du den Komponenten nutzen kannst, welche Parameter dir zur Verfügung stehen  und 
