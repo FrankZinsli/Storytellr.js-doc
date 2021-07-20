@@ -39,19 +39,19 @@ Wenn du möchtest, dass ein **TOC** mit Ankerpunkten (Links zu den entsprechende
 
 Damit das **TOC** generiert wird, muss die entsprechende Funktion aufgerufen werden. Rufe die Funktion auf und definiere die Parameter.
 
+```js
+new $story.TocGenerator({
+  id: "tableOfContentsID", // deine definierte ID
+  listType: "ul", // default: "ol" 
+  navLink: true // default: true
+});
+```
+
 | Parameter        | Type     | Wert  | Beschreibung
 | ------------- | ------------- | ------------- |------------- |
 | `id`<span style="color:red">*</span> | `String` | TOC-ID| Deine zuvor definierte ID im HTML |
 | `listType`      |  `String`  | `ol` / `ul` | Nummerierte  oder umnummerierte Liste |
 | `navLink` | `Boolean`  |  `true` / `false` | Generiert Links zu den Anchor-Points |
-
-```js
-new $story.TocGenerator({
-  id: "tableOfContentsID", // deine definierte ID
-  listType: "ul", // Default: "ol" 
-  navLink: true // Default: true
-});
-```
 
 #### Generierter HTML-Code
 Aus den obenstehenden Konfigurationen wird folgender HTML-Code generiert.

@@ -43,7 +43,7 @@ Der `alt` Tag ist in diesem Fall besonders wichtig. Er wird im Vollbildmouds als
 Damit die Funktionalität bereitgestellt wird, musst du die Funktion `ImageFullscreen` aufrufen.
 ```js
 new $story.ImageFullscreen({
-  imageIds: [
+  imageIds: [ // deine definierten IDs
     'imageFullscreenID01',
     'imageFullscreenID02'
   ]
@@ -87,7 +87,3 @@ Die folgenden **CSS-Klassen** können für ein individuelles Styling genutzt wer
 #### Generierter HTML-Code
 #### Verfügbare CSS-Klassen für Styling
 
-## Grid
-#### Komponent einsetzen
-#### Generierter HTML-Code
-#### Verfügbare CSS-Klassen für Styling

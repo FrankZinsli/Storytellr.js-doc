@@ -33,10 +33,10 @@ Sobald du das `<html>` definiert hast, kannst du nun die Funktion aufrufen.
 
 ``` js
 new $story.HeaderImage({
-  id: "yourHeaderImageId",
-  src: "../assets/images/header-image.jpg",
-  focusPointLeft: '50%',
-  focusPointTop: '50%',
+  id: "yourHeaderImageId", // deine definierte ID
+  src: "../assets/images/header-image.jpg", // Pfad zu deinem Bild
+  focusPointLeft: "50%", // default: "50%"
+  focusPointTop: "50%", // default: "50%"
 });
 ```
 
@@ -105,8 +105,8 @@ Als Nächstes muss die entsprechende Funktion von Storytellr.js aufgerufen werde
 
 ``` js
 new $story.HeaderImageSlideshow({
-  id: "YourHeaderImageSlideshowId",
-  autoplay: 9000,
+  id: "YourHeaderImageSlideshowId", // deine definierte ID
+  autoplay: 9000, // default: 9000
 });
 ```
 

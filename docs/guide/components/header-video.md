@@ -43,11 +43,11 @@ Bei allfälligen gestalterischen Änderungen, kannst du diese beiden Klassen mit
 Achte beim Einbinden des Videos auf die folgenden Parameter innerhalb des `<video>` Tags:
 | Parameter | Beschreibung |
 | ------------- | ------------- |
-| `poster` | Mit dem Poster-Parameter kannst du ein Bild definieren, das angezeigt werden soll, wenn das Video nicht abgespielt werden kann oder es gerade lädt. |
 | `autoplay` | Das Video wird automatisch abgespielt. |
-| `playsinline` | Das Video wird von Smartphones nicht im Video-Modus geöffnet, sondern bleibt an Ort und Stelle. |
-| `muted` | Einige Browser verweigern das Abspielen von Videos mit Ton. Wenn du das Video stumm schaltest, kann es auch direkt abgespielt werden. |
 | `loop` | Das Video wird in einer Schlaufe wiedergegeben. |
+| `muted` | Einige Browser verweigern das Abspielen von Videos mit Ton. Wenn du das Video stumm schaltest, kann es auch direkt abgespielt werden. |
+| `playsinline` | Das Video wird von Smartphones nicht im Video-Modus geöffnet, sondern bleibt an Ort und Stelle. |
+| `poster` | Mit dem Poster-Parameter kannst du ein Bild definieren, das angezeigt werden soll, wenn das Video nicht abgespielt werden kann oder es gerade lädt. |
 
 Wenn du über dem Video einen Text einblenden möchtest, kannst du wie im obigen Beispiel ein `div` Element definieren mit der Klasse `story-header-video-text`. Der Text wird über dem Video angezeigt.
 
@@ -78,10 +78,10 @@ Damit das **Header-Video** generiert wird, muss die entsprechende Funktion aufge
 
 ```js
 new $story.VideoPlayer({
-  id: "YourHeaderVideoId",
+  id: "YourHeaderVideoId", // deine definierte ID
   vimeo: {
-    videoId: "76979871",
-    background: true
+    videoId: "76979871", // deine ID des Vimeo-Videos
+    background: true // default: false
   }
 });
 ```
