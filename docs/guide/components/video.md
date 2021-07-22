@@ -118,7 +118,7 @@ new $story.VideoPlayer({
 | `id`<span style="color:red">*</span> | `String` | VideoPlayer-ID| Deine zuvor definierte ID im HTML. |
 | `vimeo.videoId`<span style="color:red">*</span> |  `String`  | YouTube Video ID | Die ID deines Vimeo-Videos. |
 | `vimeo.allowFullScreen` | `Boolean`  |  `true` / `false` | Darf der Nutzer das Video im Vollbildmodus schauen? |
-| `vimeo.autoplay` | `Boolean`  |  `true` / `false` | Automatisches abspielen des Videos. Funktioniert in modernen Browsern nur, wenn das Video stumm geschalten wurde. `vimeo.mute = true` |
+| `vimeo.autoplay` | `Boolean`  |  `true` / `false` | Automatisches Abspielen des Videos. Funktioniert in modernen Browsern nur, wenn das Video stumm geschalten wurde. `vimeo.mute = true` |
 | `vimeo.autopause` | `Boolean`  |  `true` / `false` | Erkennt, wenn ein anderes Video gestartet wird und pausiert sich selbst. |
 | `vimeo.controls` | `Boolean`  |  `true` / `false` | Soll die Toolbar mit `pause`, `play` usw. angezeigt werden? |
 | `vimeo.loop` | `Boolean`  |  `true` / `false` | Video wird in einer Schlaufe wiedergegeben. |
@@ -148,3 +148,43 @@ Aus den obenstehenden Konfigurationen wird folgender HTML-Code generiert.
 | `.story-vimeo-player` | Klasse für das `<iframe>` Element. |
 
 ## Lokal
+#### Komponent einsetzen
+Mit `HTML5` kannst du sehr einfach deine eigenen, lokal abgespeicherten, Videos auf deiner Webseite einbetten.
+Du kannst verschiedene Quellen mit verschiedenen Dateiformaten angeben, der Browser wählt die für Ihn passende
+Version aus. Storytellr bietet dir einige CSS-Klassen, die dir den Einsatz der Videos zusätzlich vereinfachen.
+
+```html{2-12}
+<section class="story-section">
+  <div class="story-video-container-wrapper">
+    <div class="story-video-container">
+      <video class="story-video-local" width="1440" height="810" poster="../src/assets/video/local-video-poster.jpg" autoplay muted >
+        <source src="../src/assets/video/local-video.mp4" type="video/mp4">
+        <source src="../src/assets/video/local-video.ogg" type="video/ogg">
+        Leider unterstützt dein Browser keine Video-Tags. Wenn du möchtest, kannst du das Video
+        <a href="../src/assets/video/Header-Image.mp4">herunterladen</a> und in deinem eigenen Video-Player
+        anschauen.
+      </video>
+    </div>
+  </div>
+</section>
+```
+
+Du kannst deinen HTML5-Videos verschiedene Attribute für die Steuerung deiner Videos mitgeben.
+| Attribute | Beschreibung |
+| ------------- |------------- |
+| `autoplay` | Automatisches Abspielen des Videos. Funktioniert in modernen Browsern nur, wenn das Video stumm `muted` geschalten wurde. |
+| `controls` | Zeigt die Steuerelemente des Videos an. |
+| `height` | Höhe des Videos in Pixel. |
+| `width` | Breite des Videos in Pixel. |
+| `loop` | Video wird in einer Schlaufe wiedergegeben. |
+| `muted` | Video wird stumm abgespielt. |
+| `poster` | Pfad zum Standbild des Videos. |
+| `src` | Pfad zum Video. |
+
+
+#### Verfügbare CSS-Klassen für Styling
+| CSS-Klasse | Beschreibung |
+| ------------- | ------------- |
+| `.story-video-container-wrapper` | Wrapper für Video Container |
+| `.story-video-container` | Container für Videos |
+| `.story-video-local` | Klasse für das `<video>` Element. |
