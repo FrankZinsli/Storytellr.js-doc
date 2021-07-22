@@ -11,8 +11,9 @@ features:
 - title: Funktionen
   details: Bibliothek aus Storytelling Komponenten basierend auf Usability Tests. 
 - title: Einbindung
-  details: Die Integration über ein CDN oder Lokal via Download ist möglich.
+  details: Die Integration über ein CDN oder Lokal via Download ist möglich. 
 ---
+
 
 ## Teile diese Bibliothek
 <social-share
