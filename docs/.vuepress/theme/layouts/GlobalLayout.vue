@@ -2,7 +2,11 @@
 <template>
   <div id="global-layout">
     <component :is="layout"/>
-    <footer class="custom-global-footer">
+    <footer v-if="$page.path === '/guide/'" class="custom-global-footer footer-guide-styling">
+      <p class="imprint"> <a href="/imprint">Impressum</a> </p>
+      <p>© 2021 <a href="https://frankzinsli.ch" target="_blank">Frank Zinsli</a></p>
+    </footer>
+    <footer v-else class="custom-global-footer">
       <p class="imprint"> <a href="/imprint">Impressum</a> </p>
       <p>© 2021 <a href="https://frankzinsli.ch" target="_blank">Frank Zinsli</a></p>
     </footer>
@@ -33,6 +37,12 @@ export default {
   text-align: center;
   color: #606b76;
   margin-top: 3rem;
+}
+
+@media (min-width: 720px) {
+  .footer-guide-styling {
+    padding-left: 20rem;
+  }
 }
 
 .custom-global-footer a {

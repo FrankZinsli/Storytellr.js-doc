@@ -1,10 +1,12 @@
 ---
 title: Erste Schritte
+lang: de-CH
+canonicalUrl: https://storytellr.netlify.app/guide/getting-started/
 meta:
 - name: description
   content: Hier erfährst du, wie du Storytellr.js in dein eigenes Projekt integrierst.
 - name: Keywords
-  content: Storytellr.js Storytellr MMP Storytelling Getting-Started
+  content: Storytellr.js Storytellr MMP Storytelling Erste Schritte
 ---
 
 # Erste Schritte
@@ -17,7 +19,7 @@ Du hast dafür zwei Möglichkeiten. Entweder kannst du die Bibliothek herunterla
 Projekt integrieren, oder du kannst ein Content Delivery Network (kurz CDN) nutzen.
 
 ## Download
-Wenn du Storytellr.js lokal in dein Projekt einbinden möchtest, dann kannst du die Bibliothekt hier herunterladen.
+Wenn du Storytellr.js lokal in dein Projekt einbinden möchtest, dann kannst du die Bibliothek hier herunterladen.
 
 <a class="button-a" href="https://github.com/FrankZinsli/Storytellr.js/archive/refs/heads/master.zip">
   <button>
@@ -38,7 +40,7 @@ Wenn du Storytellr.js lokal in dein Projekt einbinden möchtest, dann kannst du 
 <link href="../path/to/storytellr.min.css" rel="stylesheet" crossorigin="anonymous">
 ```
 
-2. Kopiere den folgenden `<script>` Code und füge ihn vor deinem schliessenden `</bod>` Tag ein.
+2. Kopiere den folgenden `<script>` Code und füge ihn vor deinem schliessenden `</body>` Tag ein.
 
 *CDN*
 ```html
@@ -50,9 +52,9 @@ Wenn du Storytellr.js lokal in dein Projekt einbinden möchtest, dann kannst du 
 <script src="../path/to/storytellr.min.js" crossorigin="anonymous"></script>
 ```
 
-## Starter Template
-Möchtest du keine Zeit verschwenden und direkt mit dem entwickeln deiner Storytelling-Webseite starten? Dann
-nutze das Starter Template.
+## Starter-Template
+Möchtest du keine Zeit verschwenden und direkt mit dem Entwickeln deiner Storytelling-Webseite starten? Dann
+nutze das Starter-Template.
 
 Du kannst den Code kopieren und nach deinen eigenen Vorstellungen anpassen.
 ```html

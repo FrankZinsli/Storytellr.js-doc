@@ -1,4 +1,10 @@
-## Impressum
+---
+lang: de-CH
+canonicalUrl: https://storytellr.netlify.app/imprint.html
+sidebar: false
+---
+
+# Impressum
 **Kontakt-Adresse**  
 Frank Zinsli  
 Chessiweg 6  

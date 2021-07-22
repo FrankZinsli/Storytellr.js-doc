@@ -1,5 +1,7 @@
 ---
 title: Einführung
+lang: de-CH
+canonicalUrl: https://storytellr.netlify.app/guide/introduction/
 meta:
 - name: description
   content: Was ist Storytellr? Wie ist Storytellr.js entstanden? Das erfährst du hier.

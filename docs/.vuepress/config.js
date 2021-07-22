@@ -16,14 +16,10 @@ const extendsNetworks = {
   }
 
 module.exports = {
-    locales: {
-        '/': {
-            lang: 'de-De',
-            title: 'Storytellr.js',
-            description: 'Die JavaScript-Bibliothek für Geschichtenerzähler',
-            keywords: 'Storytellr.js Storytellr MMP Storytelling Einführung'
-        },
-    },
+    base: '/',
+    lang: 'de-CH',
+    title: 'Storytellr.js',
+    description: 'Die JavaScript-Bibliothek für Geschichtenerzähler',
     head: [
         ['meta', {name: "viewport", content: "width=device-width, initial-scale=1.0, maximum-scale=1.0"}],
         ['meta', {charset: "utf-8"}],
@@ -112,7 +108,7 @@ module.exports = {
         logo: '/assets/logo/a_logo.svg',
         nav: [
             { text: 'Start', link: '/' },
-            { text: 'Über Storytellr', link: '/about/' },
+            { text: 'Über', link: '/about/' },
             { text: 'Guide', link: '/guide/' },
             { text: 'Demo', link: 'https://google.com' }
         ],

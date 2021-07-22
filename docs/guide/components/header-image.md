@@ -1,4 +1,15 @@
-# Header Foto
+---
+title: Header-Bild
+lang: de-CH
+canonicalUrl: https://storytellr.netlify.app/guide/components/header-image.html
+meta:
+- name: description
+  content: Mit dem Storytellr-Guide erfährst du wie Header-Bilder eingesetzt werden.
+- name: Keywords
+  content: Storytellr.js MMP-Storytelling Guide
+---
+
+# Header-Bild
 ![Header-Image in Storytellr.js](../../assets/illustration/undraw_Images.svg)
 
 Ein impressives **Header-Foto** kann beim Rezipienten genauso gut aufgenommen werden wie ein Video.
@@ -42,15 +53,15 @@ new $story.HeaderImage({
 
 | Parameter        | Type     | Wert  | Beschreibung
 | ------------- | ------------- | ------------- |------------- |
-| `id`<span style="color:red">*</span> | `String` | Header-Foto-ID| Deine zuvor definierte ID im HTML. |
-| `src`      |  `String`  | `../src/to/image.jpg` | Pfad zum Ablageort des Bildes |
-| `focusPointLeft` | `String`  |  `50%` | Zentrum des Bildes von Links |
-| `focusPointTop` | `String`  |  `50%` | Zentrum des Bildes von Oben |
+| `id`<span class="required-star">*</span> | `String` | Header-Foto-ID| Deine zuvor definierte ID im HTML. |
+| `src`      |  `String`  | `../src/to/image.jpg` | Pfad zum Ablageort des Bildes. |
+| `focusPointLeft` | `String`  |  `50%` | Zentrum des Bildes von Links. |
+| `focusPointTop` | `String`  |  `50%` | Zentrum des Bildes von Oben. |
 
 ::: tip Was ist ein Focus-Point?
 Durch den Einsatz von sogenannten Focus-Points kann gewährleistet werden, dass der zentrale Ausschnitt des Bildes auf jedem Gerät erscheint.
 Dies ist wichtig, wenn es sich um ein Vollbild-Foto handelt, das auf verschiedenen Endgeräten angezeigt wird.
-So wird beim responsiven-Verhalten von Bilder immer der Ausschnitt gezeigt, der als Focus-Point definiert wurde.
+So wird beim Responsiven-Verhalten von Bildern immer der Ausschnitt gezeigt, der als Focus-Point definiert wurde.
 :::
 
 #### Generierter HTML-Code
@@ -69,9 +80,9 @@ Die folgenden **CSS-Klassen** können für ein individuelles Styling genutzt wer
 
 | CSS-Klasse | Beschreibung |
 | ------------- | ------------- |
-| `.story-header` | Klasse für das `<header>` Element |
-| `.story-header-image` | Styling für das Header-Image |
-| `.story-header-image-text` | Wrapper für den Text im `<header>` |
+| `.story-header` | Klasse für das `<header>` Element. |
+| `.story-header-image` | Styling für das Header-Image. |
+| `.story-header-image-text` | Wrapper für den Text im `<header>`. |
 
 ## Foto-Slideshow
 Hast du mehrere Bilder, die du gerne im `<header>` verwenden möchtest? Dann kannst du eine **Foto-Slideshow** erstellen.
@@ -112,8 +123,8 @@ new $story.HeaderImageSlideshow({
 
 | Parameter        | Type     | Wert  | Beschreibung
 | ------------- | ------------- | ------------- |------------- |
-| `id`<span style="color:red">*</span> | `String` | Header-Slideshow-ID| Deine zuvor definierte ID im HTML |
-| `autoplay` | `Integer`  |  `9000` | Geschwindigkeit der Slideshow in Milisekunden |
+| `id`<span class="required-star">*</span> | `String` | Header-Slideshow-ID| Deine zuvor definierte ID im HTML. |
+| `autoplay` | `Integer`  |  `9000` | Geschwindigkeit der Slideshow in Millisekunden. |
 
 #### Generierter HTML-Code
 Aus den obenstehenden Konfigurationen wird folgender HTML-Code generiert.
@@ -141,6 +152,6 @@ Die folgenden **CSS-Klassen** können für ein individuelles Styling genutzt wer
 
 | CSS-Klasse | Beschreibung |
 | ------------- | ------------- |
-| `.story-header` | Klasse für das `<header>` Element |
-| `.story-header-image-slideshow` | Klasse für das Styling der Slideshow |
-| `.story-header-image-text` | Wrapper für den Text im `<header>` |
+| `.story-header` | Klasse für das `<header>` Element. |
+| `.story-header-image-slideshow` | Klasse für das Styling der Slideshow. |
+| `.story-header-image-text` | Wrapper für den Text im `<header>`. |

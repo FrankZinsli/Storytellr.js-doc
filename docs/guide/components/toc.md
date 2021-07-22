@@ -1,3 +1,14 @@
+---
+title: TOC
+lang: de-CH
+canonicalUrl: https://storytellr.netlify.app/guide/components/toc.html
+meta:
+- name: description
+  content: Mit dem Storytellr-Guide erfährst du wie ein Inhaltsverzeichnis erstellt werden kann.
+- name: Keywords
+  content: Storytellr.js MMP-Storytelling Guide
+---
+
 # Table of Contents
 ![Table of Contents in Storytellr.js](../../assets/illustration/undraw_road_sign.svg)
 
@@ -49,9 +60,9 @@ new $story.TocGenerator({
 
 | Parameter        | Type     | Wert  | Beschreibung
 | ------------- | ------------- | ------------- |------------- |
-| `id`<span style="color:red">*</span> | `String` | TOC-ID| Deine zuvor definierte ID im HTML |
-| `listType`      |  `String`  | `ol` / `ul` | Nummerierte  oder umnummerierte Liste |
-| `navLink` | `Boolean`  |  `true` / `false` | Generiert Links zu den Anchor-Points |
+| `id`<span class="required-star">*</span> | `String` | TOC-ID| Deine zuvor definierte ID im HTML. |
+| `listType`      |  `String`  | `ol` / `ul` | Nummerierte  oder umnummerierte Liste. |
+| `navLink` | `Boolean`  |  `true` / `false` | Generiert Links zu den Anchor-Points. |
 
 #### Generierter HTML-Code
 Aus den obenstehenden Konfigurationen wird folgender HTML-Code generiert.
@@ -77,6 +88,6 @@ Die folgenden **CSS-Klassen** können für ein individuelles Styling genutzt wer
 
 | CSS-Klasse | Beschreibung |
 | ------------- | ------------- |
-| `.story-table-of-contents` | Wrapper für das TOC |
-| `.story-toc-list-ol` | Klasse für das Styling der `<ol>` Liste (je nach Konfiguration) |
-| `.story-toc-list-ol` | Klasse für das Styling der `<ul>` Liste (je nach Konfiguration)|
+| `.story-table-of-contents` | Wrapper für das TOC. |
+| `.story-toc-list-ol` | Klasse für das Styling der `<ol>` Liste. *(je nach Konfiguration)* |
+| `.story-toc-list-ol` | Klasse für das Styling der `<ul>` Liste. *(je nach Konfiguration)*|

@@ -1,5 +1,7 @@
 ---
 title: Guide
+lang: de-CH
+canonicalUrl: https://storytellr.netlify.app/guide/
 meta: 
   - name: description
     content: Mit dem Storytellr-Guide erfährst du wie die verschiedenen Storytelling-Komponenten eingesetzt werden.
@@ -11,7 +13,7 @@ meta:
 **Herzlich willkommen zum Guide von Storytellr.js.** 
 
 Hier erfährst du wie du Storytellr einsetzen kannst.
-Im grunde besitzt jeder Komponent **eine oder mehrere Klassen**, die das Styling definieren. Komponenten,
+Im Grunde besitzt jeder Komponent **eine oder mehrere Klassen**, die das Styling definieren. Komponenten,
 die etwas komplizierter aufgebaut sind oder auf spezielle Funktionalitäten angewiesen sind benötigen 
 zusätzlich den **Aufruf einer Storytellr-Funktion**.
 

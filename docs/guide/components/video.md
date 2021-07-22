@@ -1,10 +1,21 @@
-# Video
+---
+title: Videos
+lang: de-CH
+canonicalUrl: https://storytellr.netlify.app/guide/components/video.html
+meta:
+- name: description
+  content: Mit dem Storytellr-Guide erfährst du wie Videos eingesetzt werden.
+- name: Keywords
+  content: Storytellr.js MMP-Storytelling Guide
+---
+
+# Videos
 ![Video in Storytellr.js](../../assets/illustration/undraw_Video_streaming.svg)
 
-Videos können den Nutzer mitreisen. Nutze Videos um Bewegung und Schwung in deine Geschichte zu bringen.
+Videos können den Nutzer mitreisen. Nutze Videos, um Bewegung und Schwung in deine Geschichte zu bringen.
 Storytellr.js bietet verschiedene Möglichkeiten, ein Video auf deiner Webseite zu platzieren.
 Neben **lokal** gehosteten Videos, kannst du auch Videos von **YouTube** und **Vimeo** einfach einsetzen.
-Storytellr.js bietet dir hierfür den Video-Player an. Dieser generiert dir den kompletten Code, so wie du Ihn gerade möchtest.
+Storytellr.js bietet dir hierfür den Video-Player an. Dieser generiert dir den kompletten Code, so wie du ihn gerade möchtest.
 
 [[toc]]
 
@@ -16,7 +27,7 @@ Storytellr.js bietet dir hierfür den Video-Player an. Dieser generiert dir den 
     </video> 
 </a>
 
-Damit du YouTube Videos möglichst einfach und responsive auf deiner Storytelling-Webseite platzieren kannst,
+Damit du **YouTube**-Videos möglichst einfach und responsive auf deiner Storytelling-Webseite platzieren kannst,
 benötigst du folgenden `<html>` Code. Die Klasse `story-video-container-wrapper` sorgt für das responsive Verhalten und
 darf nicht gelöscht werden. Zusätzlich benötigst du eine `ID`.
 
@@ -28,7 +39,7 @@ Der Code für das Video wird durch den Aufruf der JavaScript-Funktion innerhalb 
 </section>
 ```
 
-Durch das Aufrufen der VideoPlayer-Funktion kannst du dein YouTube-Video individuell konfigurieren.
+Durch das Aufrufen der VideoPlayer-Funktion kannst du dein **YouTube**-Video individuell konfigurieren.
 
 ```js
 new $story.VideoPlayer({
@@ -50,8 +61,8 @@ new $story.VideoPlayer({
 
 | Parameter        | Type     | Wert  | Beschreibung
 | ------------- | ------------- | ------------- |------------- |
-| `id`<span style="color:red">*</span> | `String` | VideoPlayer-ID| Deine zuvor definierte ID im HTML. |
-| `youtube.videoId`<span style="color:red">*</span> |  `String`  | YouTube Video ID | Die ID deines YouTube-Videos. |
+| `id`<span class="required-star">*</span> | `String` | VideoPlayer-ID| Deine zuvor definierte ID im HTML. |
+| `youtube.videoId`<span class="required-star">*</span> |  `String`  | YouTube Video ID | Die ID deines YouTube-Videos. |
 | `youtube.allowFullScreen` | `Boolean`  |  `true` / `false` | Darf der Nutzer das Video im Vollbildmodus schauen? |
 | `youtube.autoplay` | `Boolean`  |  `true` / `false` | Automatisches abspielen des Videos. Funktioniert in modernen Browsern nur, wenn das Video stumm geschalten wurde. `youtube.mute = true` |
 | `youtube.controls` | `Boolean`  |  `true` / `false` | Soll die Toolbar mit `pause`, `play` usw. angezeigt werden? |
@@ -77,9 +88,9 @@ Die folgenden **CSS-Klassen** können für ein individuelles Styling genutzt wer
 
 | CSS-Klasse | Beschreibung |
 | ------------- | ------------- |
-| `.story-video-container-wrapper` | Wrapper für Video Container |
-| `.story-video-container` | Container für Videos |
-| `.story-youtube-player` | Klasse für das `<iframe>` Element  |
+| `.story-video-container-wrapper` | Wrapper für den Video-Container. |
+| `.story-video-container` | Container für das Video. |
+| `.story-youtube-player` | Klasse für das `<iframe>` Element.  |
 
 ## Vimeo
 #### Komponent einsetzen
@@ -115,8 +126,8 @@ new $story.VideoPlayer({
 
 | Parameter        | Type     | Wert  | Beschreibung
 | ------------- | ------------- | ------------- |------------- |
-| `id`<span style="color:red">*</span> | `String` | VideoPlayer-ID| Deine zuvor definierte ID im HTML. |
-| `vimeo.videoId`<span style="color:red">*</span> |  `String`  | YouTube Video ID | Die ID deines Vimeo-Videos. |
+| `id`<span class="required-star">*</span> | `String` | VideoPlayer-ID| Deine zuvor definierte ID im HTML. |
+| `vimeo.videoId`<span class="required-star">*</span> |  `String`  | YouTube Video ID | Die ID deines Vimeo-Videos. |
 | `vimeo.allowFullScreen` | `Boolean`  |  `true` / `false` | Darf der Nutzer das Video im Vollbildmodus schauen? |
 | `vimeo.autoplay` | `Boolean`  |  `true` / `false` | Automatisches Abspielen des Videos. Funktioniert in modernen Browsern nur, wenn das Video stumm geschalten wurde. `vimeo.mute = true` |
 | `vimeo.autopause` | `Boolean`  |  `true` / `false` | Erkennt, wenn ein anderes Video gestartet wird und pausiert sich selbst. |
@@ -141,16 +152,18 @@ Aus den obenstehenden Konfigurationen wird folgender HTML-Code generiert.
 ```
 
 #### Verfügbare CSS-Klassen für Styling
+Die folgenden **CSS-Klassen** können für ein individuelles Styling genutzt werden.
+
 | CSS-Klasse | Beschreibung |
 | ------------- | ------------- |
-| `.story-video-container-wrapper` | Wrapper für Video Container |
-| `.story-video-container` | Container für Videos |
+| `.story-video-container-wrapper` | Wrapper für den Video-Container. |
+| `.story-video-container` | Container für das Video. |
 | `.story-vimeo-player` | Klasse für das `<iframe>` Element. |
 
 ## Lokal
 #### Komponent einsetzen
-Mit `HTML5` kannst du sehr einfach deine eigenen, lokal abgespeicherten, Videos auf deiner Webseite einbetten.
-Du kannst verschiedene Quellen mit verschiedenen Dateiformaten angeben, der Browser wählt die für Ihn passende
+Mit `HTML5` kannst du einfach deine eigenen lokal abgespeicherten Videos auf deiner Webseite einbetten.
+Du kannst verschiedene Quellen mit verschiedenen Dateiformaten angeben, der Browser wählt die für ihn passende
 Version aus. Storytellr bietet dir einige CSS-Klassen, die dir den Einsatz der Videos zusätzlich vereinfachen.
 
 ```html{2-12}
@@ -172,6 +185,7 @@ Version aus. Storytellr bietet dir einige CSS-Klassen, die dir den Einsatz der V
 Du kannst deinen HTML5-Videos verschiedene Attribute für die Steuerung deiner Videos mitgeben.
 | Attribute | Beschreibung |
 | ------------- |------------- |
+| `src`<span class="required-star">*</span> | Pfad zum Video. |
 | `autoplay` | Automatisches Abspielen des Videos. Funktioniert in modernen Browsern nur, wenn das Video stumm `muted` geschalten wurde. |
 | `controls` | Zeigt die Steuerelemente des Videos an. |
 | `height` | Höhe des Videos in Pixel. |
@@ -179,12 +193,13 @@ Du kannst deinen HTML5-Videos verschiedene Attribute für die Steuerung deiner V
 | `loop` | Video wird in einer Schlaufe wiedergegeben. |
 | `muted` | Video wird stumm abgespielt. |
 | `poster` | Pfad zum Standbild des Videos. |
-| `src` | Pfad zum Video. |
 
 
 #### Verfügbare CSS-Klassen für Styling
+Die folgenden **CSS-Klassen** können für ein individuelles Styling genutzt werden.
+
 | CSS-Klasse | Beschreibung |
 | ------------- | ------------- |
-| `.story-video-container-wrapper` | Wrapper für Video Container |
-| `.story-video-container` | Container für Videos |
+| `.story-video-container-wrapper` | Wrapper für den Video-Container. |
+| `.story-video-container` | Container für das Video. |
 | `.story-video-local` | Klasse für das `<video>` Element. |

@@ -1,7 +1,18 @@
+---
+title: Header-Video
+lang: de-CH
+canonicalUrl: https://storytellr.netlify.app/guide/components/header-video.html
+meta:
+- name: description
+  content: Mit dem Storytellr-Guide erfährst du wie Header-Videos eingesetzt werden.
+- name: Keywords
+  content: Storytellr.js MMP-Storytelling Guide
+---
+
 # Header-Video
 ![Header-Video in Storytellr.js](../../assets/illustration/undraw_online_media.svg)
 
-Um ein Vollbild Header-Video in deiner Storytelling-Webseite zu integrieren hast du zwei Möglichkeiten.
+Um ein Vollbild Header-Video in deiner Storytelling-Webseite zu integrieren, hast du zwei Möglichkeiten.
 Einerseits kannst du dafür ein lokales Video verwenden oder du kannst ein Video von **Vimeo** nutzen.
 
 [[toc]]
@@ -11,7 +22,7 @@ Damit du ein Video von **Vimeo** als Hintergrund-Video nutzen kannst, benötigst
 :::
 
 ::: danger YouTube
-Wenn du ein **YouTube** Video als Hintergrund-Video nutzen möchtest, dann muss ich dich leider enttäuschen. YouTube bietet keine
+Wenn du ein **YouTube**-Video als Hintergrund-Video nutzen möchtest, dann muss ich dich leider enttäuschen. YouTube bietet keine
 Option, damit die Hintergrund-Videos auf allen Geräten funktionieren.
 :::
 
@@ -27,10 +38,13 @@ Storytellr.js bietet dir zwei vordefinierte Klassen, damit das Video optimal dar
 Bei allfälligen gestalterischen Änderungen, kannst du diese beiden Klassen mit deinem CSS überschreiben.
 
 #### Komponent einsetzen
-``` html{2-4}
+``` html{2-7}
 <header class="story-header story-header-video">
   <video poster="../assets/images/image-header-video.jpg" autoplay playsinline muted loop>
     <source src="../assets/video/header-video.mp4" type="video/mp4">
+    <source src="../src/assets/video/header-video.ogg" type="video/ogg">
+    Leider unterstützt dein Browser keine Video-Tags. Wenn du möchtest, kannst du das Video
+    <a href="../src/assets/video/header-video.mp4">herunterladen</a> und in deinem eigenen Video-Player anschauen.
   </video>
 
   <div class="story-header-video-text">
@@ -45,9 +59,10 @@ Achte beim Einbinden des Videos auf die folgenden Parameter innerhalb des `<vide
 | ------------- | ------------- |
 | `autoplay` | Das Video wird automatisch abgespielt. |
 | `loop` | Das Video wird in einer Schlaufe wiedergegeben. |
-| `muted` | Einige Browser verweigern das Abspielen von Videos mit Ton. Wenn du das Video stumm schaltest, kann es auch direkt abgespielt werden. |
+| `muted` | Einige Browser verweigern das automatische Abspielen von Videos mit Ton. Wenn du das Video stumm schaltest, kann es auch direkt abgespielt werden. |
 | `playsinline` | Das Video wird von Smartphones nicht im Video-Modus geöffnet, sondern bleibt an Ort und Stelle. |
 | `poster` | Mit dem Poster-Parameter kannst du ein Bild definieren, das angezeigt werden soll, wenn das Video nicht abgespielt werden kann oder es gerade lädt. |
+| `src` | Pfad zum Video. |
 
 Wenn du über dem Video einen Text einblenden möchtest, kannst du wie im obigen Beispiel ein `div` Element definieren mit der Klasse `story-header-video-text`. Der Text wird über dem Video angezeigt.
 
@@ -56,9 +71,9 @@ Die folgenden **CSS-Klassen** können für ein individuelles Styling genutzt wer
 
 | CSS-Klasse | Beschreibung |
 | ------------- | ------------- |
-| `.story-header` | Klasse für das `<header>` Element |
-| `.story-header-video` | Klasse für das `<div>` Element, um das `<video>` Element herum |
-| `.story-header-video-text` | Klasse für den Text auf dem Header Element |
+| `.story-header` | Klasse für das `<header>` Element. |
+| `.story-header-video` | Klasse für das `<div>` Element, um das `<video>` Element herum. |
+| `.story-header-video-text` | Klasse für den Text auf dem Header Element. |
 
 ## Vimeo
 Wichtig ist dabei, dass du dem `<header>` die Klassen `story-header` und `story-header-video` mitgibst. Zusätzlich benötigt
@@ -88,9 +103,9 @@ new $story.VideoPlayer({
 
 | Parameter        | Type     | Wert  | Beschreibung
 | ------------- | ------------- | ------------- |------------- |
-| `id`<span style="color:red">*</span> | `String` | Header-Video-ID| Deine zuvor definierte ID im HTML |
-| `vimeo.videoId` | `String`  |  `12345678` | Die ID des Videos auf Vimeo |
-| `vimeo.background` | `Boolean`  |  `true` / `false` | Generiert das Header-Video |
+| `id`<span class="required-star">*</span> | `String` | Header-Video-ID| Deine zuvor definierte ID im HTML. |
+| `vimeo.videoId` | `String`  |  `12345678` | Die ID des Videos auf Vimeo. |
+| `vimeo.background` | `Boolean`  |  `true` / `false` | Generiert das Header-Video. |
 
 Wenn du über dem Video einen Text einblenden möchtest, kannst du wie im obigen Beispiel ein `div` Element definieren mit der Klasse `story-header-video-text`. Der Text wird über dem Video angezeigt.
 
@@ -113,8 +128,8 @@ Die folgenden **CSS-Klassen** können für ein individuelles Styling genutzt wer
 
 | CSS-Klasse | Beschreibung |
 | ------------- | ------------- |
-| `.story-header` | Klasse für das `<header>` Element |
-| `.story-header-video` | Wrapper für den Header-Video-Container  |
-| `.story-video-container` | Container für Videos |
-| `.story-vimeo-header-player` | Klasse für das `<iframe>` Element |
-| `.story-header-video-text` | Klasse für den Text auf dem Header Element |
+| `.story-header` | Klasse für das `<header>` Element. |
+| `.story-header-video` | Wrapper für den Header-Video-Container.  |
+| `.story-video-container` | Container für Videos. |
+| `.story-vimeo-header-player` | Klasse für das `<iframe>` Element. |
+| `.story-header-video-text` | Klasse für den Text auf dem Header Element. |
