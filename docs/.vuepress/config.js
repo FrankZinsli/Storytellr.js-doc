@@ -43,6 +43,9 @@ module.exports = {
         ['meta', { name: 'msapplication-TileColor', content: '#fff' }],
         ['meta', { name: 'theme-color', content: '#f3722c' }],
 
+        <!-- Google Search Console -->
+        ['meta', { name: 'google-site-verification', content: 'TxPdaiqxHbVnadyifkxFE6ri8CEzphPY4LOkLCdEF9Y' }],
+
         <!-- Open Graph für Facebook, LinkedIn und Pinterest -->
         ['meta', { property: "og:type", content: "website"}],
         ['meta', { property: "og:url", content: "https://storytellr.netlify.app/"}],
