@@ -21,7 +21,7 @@ Projekt integrieren, oder du kannst ein Content Delivery Network (kurz CDN) nutz
 ## Download
 Wenn du Storytellr.js lokal in dein Projekt einbinden möchtest, dann kannst du die Bibliothek hier herunterladen.
 
-<a class="button-a" href="https://github.com/FrankZinsli/Storytellr.js/archive/refs/heads/master.zip">
+<a class="button-a" href="http://localhost:8080/downloads/Storytellr-V1.0.0.zip">
   <button>
     Storytellr.js - Download
   </button>

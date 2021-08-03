@@ -84,22 +84,29 @@ module.exports = {
             after: '</div>',
         }],
         ['robots', {
-            host: "https://storytellr.frankzinsli.ch",
-            disallowAll: true,
+            host: "https://storytellr.netlify.app/",
+            disallowAll: false,
+            allowAll: false,
             sitemap: "/sitemap.xml",
-            /*allowAll: true,
             policies: [
                 {
                     userAgent: '*',
                     disallow: [
-                        '/admin',
-                        '/login'
+                        '/assets/',
+                        '/downloads/',
+                        '/imprint.html'
                     ],
                     allow: [
-                        'products','blog'
+                        '/downloads/Leitfaden zu Storytelling auf Webseiten.pdf'
                     ]
-                }
-            ]*/
+                },
+                {
+                    userAgent: 'Googlebot-Image',
+                    disallow: [
+                        '/'
+                    ],
+                },
+            ]
         }],
     ],
 
@@ -119,7 +126,6 @@ module.exports = {
                 collapsable: false, // optional, defaults to true
                 sidebarDepth: 2,    // optional, defaults to 1
                 children: [
-                    '/guide/introduction/',
                     '/guide/getting-started/',
                 ]
             },
