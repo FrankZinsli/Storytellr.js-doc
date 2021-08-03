@@ -19,7 +19,7 @@ module.exports = {
     base: '/',
     lang: 'de-CH',
     title: 'Storytellr.js',
-    description: 'Die JavaScript-Bibliothek für Geschichtenerzähler',
+    description: 'Die JavaScript-Bibliothek für Geschichtenerzähler. Entwickelt für MMP-Studenten und basiert auf dem Leitfaden für Storytelling auf Webseiten.',
     head: [
         ['meta', {name: "viewport", content: "width=device-width, initial-scale=1.0, maximum-scale=1.0"}],
         ['meta', {charset: "utf-8"}],
@@ -41,7 +41,21 @@ module.exports = {
         ['link', { rel: 'manifest', href: '/manifest.webmanifest' }],
         ['meta', { name: "msapplication-TileImage", content: "/assets/favicons/ms-icon-310x310.png"}],
         ['meta', { name: 'msapplication-TileColor', content: '#fff' }],
-        ['meta', { name: 'theme-color', content: '#f3722c' }]
+        ['meta', { name: 'theme-color', content: '#f3722c' }],
+
+        <!-- Open Graph für Facebook, LinkedIn und Pinterest -->
+        ['meta', { property: "og:type", content: "website"}],
+        ['meta', { property: "og:url", content: "https://storytellr.netlify.app/"}],
+        ['meta', { property: "og:title", content: "Storytellr.js"}],
+        ['meta', { property: "og:description", content: "Die JavaScript-Bibliothek für Geschichtenerzähler. Entwickelt für MMP-Studenten und basiert auf dem Leitfaden für Storytelling auf Webseiten."}],
+        ['meta', { property: "og:image", content: "https://storytellr.netlify.app/assets/logo/storytellr-social-logo.png"}],
+
+        <!-- Twitter -->
+        ['meta', { property: "twitter:card", content: "summary_large_image"}],
+        ['meta', { property: "twitter:url", content: "https://storytellr.netlify.app/"}],
+        ['meta', { property: "twitter:title", content: "Storytellr.js"}],
+        ['meta', { property: "twitter:description", content: "Die JavaScript-Bibliothek für Geschichtenerzähler. Entwickelt für MMP-Studenten und basiert auf dem Leitfaden für Storytelling auf Webseiten."}],
+        ['meta', { property: "twitter:image", content: "https://storytellr.netlify.app/assets/logo/storytellr-social-logo.png"}]
       ],
 
     plugins: [
@@ -58,7 +72,7 @@ module.exports = {
         ['social-share', {
             autoQuote: true,
             extendsNetworks,
-            fallbackImage: '/assets/logo/b_logo.svg',
+            fallbackImage: 'https://storytellr.netlify.app/assets/logo/storytellr-social-logo.png',
             networks: [
                 'linkedin',
                 'facebook',
@@ -142,7 +156,8 @@ module.exports = {
                     '/guide/components/video',
                     '/guide/components/image',
                     '/guide/components/audio',
-                    '/guide/components/multimedial'
+                    '/guide/components/multimedial',
+                    '/guide/components/social-meta'
                 ]
             },
         ],

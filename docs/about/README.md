@@ -53,14 +53,14 @@ miteinbezogen werden, was das immersive Erlebnis stark fördert.
 ## Der Leitfaden
 Der nachfolgende Leitfaden für Storytelling auf Webseiten war ein Bestandteil einer Bachelorarbeit. Es ist das Produkt aus der erarbeiteten Thesis zum Thema: **Storytelling auf Webseiten**.
 
-<a class="button-a" href="http://localhost:8080/downloads/Leitfaden zu Storytelling auf Webseiten.pdf" target="_blank">
+<a class="button-a" href="https://storytellr.netlify.app/downloads/Leitfaden zu Storytelling auf Webseiten.pdf" target="_blank">
   <button style="margin-bottom: 20px">
     Leitfaden - Download
   </button>
 </a>
 
-<object class="pdf-viewer" data="http://localhost:8080/downloads/Leitfaden zu Storytelling auf Webseiten.pdf" type="application/pdf">
-    <embed src="http://localhost:8080/downloads/Leitfaden zu Storytelling auf Webseiten.pdf">
-        <p>Dein Browser unterstützt keine PDFs. Bitte lade das PDF herunter und schaue es in deinem PDF-Viewer an: <a href="http://localhost:8080/downloads/Leitfaden zu Storytelling auf Webseiten.pdf">Download PDF</a>.</p>
+<object class="pdf-viewer" data="https://storytellr.netlify.app/downloads/Leitfaden zu Storytelling auf Webseiten.pdf" type="application/pdf">
+    <embed src="https://storytellr.netlify.app/downloads/Leitfaden zu Storytelling auf Webseiten.pdf">
+        <p>Dein Browser unterstützt keine PDFs. Bitte lade das PDF herunter und schaue es in deinem PDF-Viewer an: <a href="https://storytellr.netlify.app/downloads/Leitfaden zu Storytelling auf Webseiten.pdf">Download PDF</a>.</p>
     </embed>
 </object>
