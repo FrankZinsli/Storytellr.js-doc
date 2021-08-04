@@ -81,9 +81,9 @@ Die folgenden **CSS-Klassen** können für ein individuelles Styling genutzt wer
 
 | CSS-Klasse | Beschreibung |
 | ------------- | ------------- |
-| `.story-header` | Klasse für das `<header>` Element. |
-| `.story-header-image` | Styling für das Header-Image. |
-| `.story-header-image-text` | Wrapper für den Text im `<header>`. |
+| `.story-header` | Klasse für das Styling des  `<header>` Elements. |
+| `.story-header-image` | Klasse für das Styling des Header-Images. |
+| `.story-header-image-text` | Klasse für das Styling des Wrappers für den Text im `<header>`. |
 
 ## Foto-Slideshow
 <video width="1920" height="1080" autoplay  muted loop playsinline >
@@ -158,6 +158,6 @@ Die folgenden **CSS-Klassen** können für ein individuelles Styling genutzt wer
 
 | CSS-Klasse | Beschreibung |
 | ------------- | ------------- |
-| `.story-header` | Klasse für das `<header>` Element. |
+| `.story-header` | Klasse für das Styling des `<header>` Elements. |
 | `.story-header-image-slideshow` | Klasse für das Styling der Slideshow. |
-| `.story-header-image-text` | Wrapper für den Text im `<header>`. |
+| `.story-header-image-text` | Klasse für das Styling des Wrappers für den Text im `<header>`. |

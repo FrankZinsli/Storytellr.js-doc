@@ -89,9 +89,9 @@ Die folgenden **CSS-Klassen** können für ein individuelles Styling genutzt wer
 
 | CSS-Klasse | Beschreibung |
 | ------------- | ------------- |
-| `.story-video-container-wrapper` | Wrapper für den Video-Container. |
-| `.story-video-container` | Container für das Video. |
-| `.story-youtube-player` | Klasse für das `<iframe>` Element.  |
+| `.story-video-container-wrapper` | Klasse für das Styling des Wrappers für den Video-Container. |
+| `.story-video-container` | Klasse für das Styling des Containers für das Video. |
+| `.story-youtube-player` | Klasse für das Styling des `<iframe>` Elements.  |
 
 ## Vimeo
 #### Komponent einsetzen
@@ -157,9 +157,9 @@ Die folgenden **CSS-Klassen** können für ein individuelles Styling genutzt wer
 
 | CSS-Klasse | Beschreibung |
 | ------------- | ------------- |
-| `.story-video-container-wrapper` | Wrapper für den Video-Container. |
-| `.story-video-container` | Container für das Video. |
-| `.story-vimeo-player` | Klasse für das `<iframe>` Element. |
+| `.story-video-container-wrapper` | Klasse für das Styling des Wrappers für den Video-Container. |
+| `.story-video-container` | Klasse für das Styling des Containers für das Video. |
+| `.story-vimeo-player` | Klasse für das Styling des `<iframe>` Elements. |
 
 ## Lokal
 #### Komponent einsetzen
@@ -201,9 +201,9 @@ Die folgenden **CSS-Klassen** können für ein individuelles Styling genutzt wer
 
 | CSS-Klasse | Beschreibung |
 | ------------- | ------------- |
-| `.story-video-container-wrapper` | Wrapper für den Video-Container. |
-| `.story-video-container` | Container für das Video. |
-| `.story-video-local` | Klasse für das `<video>` Element. |
+| `.story-video-container-wrapper` | Klasse für das Styling des Wrappers für den Video-Container. |
+| `.story-video-container` | Klasse für das Styling des Containers für das Video. |
+| `.story-video-local` | Klasse für das Styling des `<video>` Elements. |
 
 ## Slideshow
 Mit **Storytellr.js** hast du die Möglichkeit eine Slideshow von verschiedenen Videos zu erstellen.

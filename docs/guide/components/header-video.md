@@ -72,9 +72,9 @@ Die folgenden **CSS-Klassen** können für ein individuelles Styling genutzt wer
 
 | CSS-Klasse | Beschreibung |
 | ------------- | ------------- |
-| `.story-header` | Klasse für das `<header>` Element. |
-| `.story-header-video` | Klasse für das `<div>` Element, um das `<video>` Element herum. |
-| `.story-header-video-text` | Klasse für den Text auf dem Header Element. |
+| `.story-header` | Klasse für das Styling des `<header>` Elements. |
+| `.story-header-video` | Klasse für das Styling des `<div>` Elements, um das `<video>` Element herum. |
+| `.story-header-video-text` | Klasse für das Styling für den Text auf dem Header Element. |
 
 ## Vimeo
 Wichtig ist dabei, dass du dem `<header>` die Klassen `story-header` und `story-header-video` mitgibst. Zusätzlich benötigt
@@ -129,8 +129,8 @@ Die folgenden **CSS-Klassen** können für ein individuelles Styling genutzt wer
 
 | CSS-Klasse | Beschreibung |
 | ------------- | ------------- |
-| `.story-header` | Klasse für das `<header>` Element. |
-| `.story-header-video` | Wrapper für den Header-Video-Container.  |
-| `.story-video-container` | Container für Videos. |
-| `.story-vimeo-header-player` | Klasse für das `<iframe>` Element. |
-| `.story-header-video-text` | Klasse für den Text auf dem Header Element. |
+| `.story-header` | Klasse für das Styling des `<header>` Elements. |
+| `.story-header-video` | Klasse für das Styling des Wrappers für den Header-Video-Container.  |
+| `.story-video-container` | Klasse für das Styling des Containers für Videos. |
+| `.story-vimeo-header-player` | Klasse für das Styling des `<iframe>` Elements. |
+| `.story-header-video-text` | Klasse für das Styling des Textes auf dem Header Element. |

@@ -86,6 +86,6 @@ Die folgenden **CSS-Klassen** können für ein individuelles Styling genutzt wer
 
 | CSS-Klasse | Beschreibung |
 | ------------- | ------------- |
-| `.story-table-of-contents` | Wrapper für das TOC. |
+| `.story-table-of-contents` | Klasse für das Styling des Wrappers des TOC. |
 | `.story-toc-list-ol` | Klasse für das Styling der `<ol>` Liste. *(je nach Konfiguration)* |
 | `.story-toc-list-ol` | Klasse für das Styling der `<ul>` Liste. *(je nach Konfiguration)*|

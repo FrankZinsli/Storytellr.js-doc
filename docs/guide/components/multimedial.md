@@ -45,7 +45,7 @@ Im Einsatz sieht das ganze so aus:
 | CSS-Klasse | Beschreibung |
 | ------------- | ------------- |
 | `.story-media-image` | Klasse für das Styling des Wrappers. |
-| `.story-media-image-player` | Klasse für das `<video>` Element. |
+| `.story-media-image-player` | Klasse für das Styling des `<video>` Elements. |
 
 ## Multimediale Slideshow
 <video width="1920" height="1080" autoplay  muted loop playsinline >

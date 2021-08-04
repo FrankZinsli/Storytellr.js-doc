@@ -86,11 +86,11 @@ Die folgenden **CSS-Klassen** können für ein individuelles Styling genutzt wer
 
 | CSS-Klasse | Beschreibung |
 | ------------- | ------------- |
-| `.story-image-zoom` | Klasse für das Bild, das *normal* auf der Webseite dargestellt wird. |
-| `.story-image-zoom-modal` | Klasse für das Modal, das beim Klick aufgerufen wird. |
-| `.story-image-zoom-close` | Klasse für das Icon `x` zum Schliessen des Modals. |
-| `.story-image-zoom-modal-content` | Klasse für das Bild im Modal. |
-| `.story-image-zoom-modal-caption` | Klass für die Bildbeschreibung im Modal. |
+| `.story-image-zoom` | Klasse für das Styling des Bildes, das *normal* auf der Webseite dargestellt wird. |
+| `.story-image-zoom-modal` | Klasse für das Styling des Modals, das beim Klick aufgerufen wird. |
+| `.story-image-zoom-close` | Klasse für das Styling des Icons `x` zum Schliessen des Modals. |
+| `.story-image-zoom-modal-content` | Klasse für das Styling des Bildes im Modal. |
+| `.story-image-zoom-modal-caption` | Klass für das Styling der Bildbeschreibung im Modal. |
 
 ## Slideshow
 <video width="1920" height="1080" autoplay  muted loop playsinline >

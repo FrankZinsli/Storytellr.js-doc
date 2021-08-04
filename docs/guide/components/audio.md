@@ -53,9 +53,9 @@ Die folgenden **CSS-Klassen** können für ein individuelles Styling genutzt wer
 
 | CSS-Klasse | Beschreibung |
 | ------------- | ------------- |
-| `.story-audio-container` | Container für das Audio. |
-| `.story-audio-player` | Klasse für das `<audio>` Element. |
-| `.story-audio-caption` | Klasse für die Beschreibung des Audios. |
+| `.story-audio-container` | Klasse für das Styling des Containers für das Audio. |
+| `.story-audio-player` | Klasse für das Styling des `<audio>` Element. |
+| `.story-audio-caption` | Klasse für das Styling der Beschreibung des Audios. |
 
 ## Slideshow
 <video width="1920" height="1080" autoplay  muted loop playsinline >
