@@ -1,77 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-        xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-    <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
+  <url>
+    <loc>https://storytellr.netlify.app/</loc>
+    <lastmod>2021-08-03T12:02:41+00:00</lastmod>
+    <priority>1.00</priority>
+  </url>
 
-    <url>
-        <loc>https://storytellr.netlify.app/</loc>
-        <lastmod>2021-08-03T12:02:41+00:00</lastmod>
-        <priority>1.00</priority>
-    </url>
-    <url>
-        <loc>https://storytellr.netlify.app/about/</loc>
-        <lastmod>2021-08-03T12:02:41+00:00</lastmod>
-        <priority>0.80</priority>
-    </url>
-    <url>
-        <loc>https://storytellr.netlify.app/guide/</loc>
-        <lastmod>2021-08-03T12:02:41+00:00</lastmod>
-        <priority>0.80</priority>
-    </url>
-    <url>
-        <loc>https://storytellr.netlify.app/guide/getting-started/</loc>
-        <lastmod>2021-08-03T12:02:41+00:00</lastmod>
-        <priority>0.80</priority>
-    </url>
-    <url>
-        <loc>https://storytellr.netlify.app/guide/components/header-video.html</loc>
-        <lastmod>2021-08-03T12:02:41+00:00</lastmod>
-        <priority>0.80</priority>
-    </url>
-    <url>
-        <loc>https://storytellr.netlify.app/guide/components/header-image.html</loc>
-        <lastmod>2021-08-03T12:02:41+00:00</lastmod>
-        <priority>0.80</priority>
-    </url>
-    <url>
-        <loc>https://storytellr.netlify.app/guide/components/toc.html</loc>
-        <lastmod>2021-08-03T12:02:41+00:00</lastmod>
-        <priority>0.80</priority>
-    </url>
-    <url>
-        <loc>https://storytellr.netlify.app/guide/components/video.html</loc>
-        <lastmod>2021-08-03T12:02:41+00:00</lastmod>
-        <priority>0.80</priority>
-    </url>
-    <url>
-        <loc>https://storytellr.netlify.app/guide/components/image.html</loc>
-        <lastmod>2021-08-03T12:02:41+00:00</lastmod>
-        <priority>0.80</priority>
-    </url>
-    <url>
-        <loc>https://storytellr.netlify.app/guide/components/audio.html</loc>
-        <lastmod>2021-08-03T12:02:41+00:00</lastmod>
-        <priority>0.80</priority>
-    </url>
-    <url>
-        <loc>https://storytellr.netlify.app/guide/components/multimedial.html</loc>
-        <lastmod>2021-08-03T12:02:41+00:00</lastmod>
-        <priority>0.80</priority>
-    </url>
-    <url>
-        <loc>https://storytellr.netlify.app/guide/components/social-meta.html</loc>
-        <lastmod>2021-08-03T12:02:41+00:00</lastmod>
-        <priority>0.80</priority>
-    </url>
-    <url>
-        <loc>https://storytellr.netlify.app/imprint</loc>
-        <lastmod>2021-08-03T12:02:41+00:00</lastmod>
-        <priority>0.80</priority>
-    </url>
+  <url>
+    <loc>https://storytellr.netlify.app/about/</loc>
+    <lastmod>2021-08-03T12:02:41+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
 
+  <url>
+    <loc>https://storytellr.netlify.app/guide/</loc>
+    <lastmod>2021-08-03T12:02:41+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://storytellr.netlify.app/guide/getting-started/</loc>
+    <lastmod>2021-08-03T12:02:41+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://storytellr.netlify.app/guide/components/header-video.html</loc>
+    <lastmod>2021-08-03T12:02:41+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://storytellr.netlify.app/guide/components/header-image.html</loc>
+    <lastmod>2021-08-03T12:02:41+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://storytellr.netlify.app/guide/components/toc.html</loc>
+    <lastmod>2021-08-03T12:02:41+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://storytellr.netlify.app/guide/components/text.html</loc>
+    <lastmod>2021-08-03T12:02:41+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://storytellr.netlify.app/guide/components/video.html</loc>
+    <lastmod>2021-08-03T12:02:41+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://storytellr.netlify.app/guide/components/image.html</loc>
+    <lastmod>2021-08-03T12:02:41+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://storytellr.netlify.app/guide/components/audio.html</loc>
+    <lastmod>2021-08-03T12:02:41+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://storytellr.netlify.app/guide/components/multimedial.html</loc>
+    <lastmod>2021-08-03T12:02:41+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://storytellr.netlify.app/guide/components/social-meta.html</loc>
+    <lastmod>2021-08-03T12:02:41+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://storytellr.netlify.app/imprint</loc>
+    <lastmod>2021-08-03T12:02:41+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
 
 </urlset>
