@@ -15,8 +15,6 @@ meta:
 Der grosse Vorteil von Storytelling auf einer Webseite gegenüber anderen Storytelling-Formaten ist, dass zielgruppengerechte
 Geschichten sehr gezielt über verschiedene Distributionskanäle an die jeweilige Zielgruppe gebracht werden können.
 
-[[toc]]
-
 #### Social-Meta-Tags einsetzen
 Um Social-Meta-Tags zu verwenden, musst du verschiedene **Meta-Tags** in dem **Header-Bereich** deiner Webseite platzieren.
 

@@ -17,6 +17,7 @@ Storytellr.js bietet verschiedene Möglichkeiten, ein Video auf deiner Webseite 
 Neben **lokal** gehosteten Videos, kannst du auch Videos von **YouTube** und **Vimeo** einfach einsetzen.
 Storytellr.js bietet dir hierfür den Video-Player an. Dieser generiert dir den kompletten Code, so wie du ihn gerade möchtest.
 
+#### Inhalt in diesem Abschnitt
 [[toc]]
 
 ## YouTube
@@ -203,3 +204,106 @@ Die folgenden **CSS-Klassen** können für ein individuelles Styling genutzt wer
 | `.story-video-container-wrapper` | Wrapper für den Video-Container. |
 | `.story-video-container` | Container für das Video. |
 | `.story-video-local` | Klasse für das `<video>` Element. |
+
+## Slideshow
+Mit **Storytellr.js** hast du die Möglichkeit eine Slideshow von verschiedenen Videos zu erstellen.
+Storytellr bietet dir hierfür eine Funktion, welche dir den `HTML-Code` generiert und zusätzlich einige `CSS-Klassen` für ein individuelles Styling.
+
+#### Komponent einsetzen
+Der folgende `HTML-Code` wird für den Grundaufbau benötigt. Du kannst zusätzlich zum Video ein `poster` als Standbild des Videos nutzen. 
+Zusätzlich kannst du alle Parameter die in [Lokal/ Komponent einsetzen](#lokal) beschrieben sind nutzen und mehrere Quellen für das Video angeben.
+
+```html{16-22}
+    <section class="story-section">
+      <div class="story-media-slideshow" id="videoSlideshow">
+        <div class="story-media-slideshow-container">
+          <div class="story-media-image">
+            <video class="story-media-image-player" width="1920" height="1280" controls poster="../assets/img/poster-video01.jpg">
+              <source src="../assets/video/video01.mp4" type="video/mp4">
+              Leider unterstützt dein Browser keine Audio-Tags. Wenn du möchtest, kannst du das Audio
+              <a href="../assets/video/video01.mp4">herunterladen</a> und in deinem eigenen Audio-Player
+              anhören.
+            </video>
+          </div>
+        </div>
+
+        <div class="story-media-slideshow-container">
+          <div class="story-media-image">
+            <video class="story-media-image-player" width="1920" height="1280" controls poster="../assets/img/poster-video02.jpg">
+              <source src="../assets/video/video01.mp4" type="video/mp4">
+              <source src="../assets/video/video01.ogg" type="video/ogg">
+              Leider unterstützt dein Browser keine Audio-Tags. Wenn du möchtest, kannst du das Audio
+              <a href="../assets/video/video01.mp4">herunterladen</a> und in deinem eigenen Audio-Player
+              anhören.
+            </video>
+          </div>
+        </div>
+      </div>
+    </section>
+```
+
+Wenn du den `HTML-Grundaufbau` erstellt hast, kannst du anschliessend die **Storytellr-Funktion** für multimediale-Slideshows
+aufrufen.
+
+```js
+new $story.MediaSlideshow({
+  id: "videoSlideshow", // deine definierte ID
+  autoplay: true // default true
+})
+```
+
+| Parameter        | Type     | Wert  | Beschreibung
+| ------------- | ------------- | ------------- |------------- |
+| `id`<span class="required-star">*</span> | `String` | videoSlideshow| Deine zuvor definierte ID im HTML. |
+| `autoplay` | `Boolean` | `true` / `false`| Sollen die Videos beim durchklicken der Slideshow automatisch gestartet und gestoppt werden? |
+
+
+#### Generierter HTML-Code
+Aus den obenstehenden Konfigurationen wird folgender HTML-Code generiert.
+```html
+<section class="story-section">
+  <div class="story-media-slideshow" id="videoSlideshow">
+    <div class="story-media-slideshow-container" style="display: block;">
+      <div class="story-media">
+        <video class="story-media-player" width="1920" height="1280" controls poster="../assets/img/poster-video01.jpg">
+          <source src="../assets/video/video01.mp4" type="video/mp4">
+          Leider unterstützt dein Browser keine Audio-Tags. Wenn du möchtest, kannst du das Audio
+          <a href="../assets/video/video01.mp4">herunterladen</a> und in deinem eigenen Audio-Player
+          anhören.
+        </video>
+      </div>
+      <div class="story-media-controllers">
+        <span class="story-media-controller story-media-controller-0 active-media-controller" onclick="$story.MediaSlideshow.showCurrentMedia(&quot;videoSlideshow&quot;, 0)"></span>
+        <span class="story-media-controller story-media-controller-1" onclick="$story.MediaSlideshow.showCurrentMedia(&quot;videoSlideshow&quot;, 1)"></span>
+      </div>
+    </div>
+
+    <div class="story-media-slideshow-container" style="display: none;">
+      <div class="story-media">
+        <video class="story-media-player" width="1920" height="1280" controls poster="../assets/img/poster-video02.jpg">
+          <source src="../assets/video/video01.mp4" type="video/mp4">
+          <source src="../assets/video/video01.ogg" type="video/ogg">
+          Leider unterstützt dein Browser keine Audio-Tags. Wenn du möchtest, kannst du das Audio
+          <a href="../assets/img/poster-video02.jpg">herunterladen</a> und in deinem eigenen Audio-Player
+          anhören.
+        </video>
+      </div>
+      <div class="story-media-controllers">
+        <span class="story-media-controller story-media-controller-0 active-media-controller" onclick="$story.MediaSlideshow.showCurrentMedia(&quot;videoSlideshow&quot;, 0)"></span>
+        <span class="story-media-controller story-media-controller-1" onclick="$story.MediaSlideshow.showCurrentMedia(&quot;videoSlideshow&quot;, 1)"></span>
+      </div>
+    </div>
+  </div>
+</section>
+```
+
+#### Verfügbare CSS-Klassen für Styling
+Die folgenden **CSS-Klassen** können für ein individuelles Styling genutzt werden.
+
+| CSS-Klasse | Beschreibung |
+| ------------- | ------------- |
+| `.story-media-slideshow` | Klasse für das Styling des Wrappers der Slideshow. |
+| `.story-media-slideshow-container` | Klasse für das Styling des Containers der Slideshow. |
+| `.story-media-controllers` | Klasse für das Styling des Wrappers der Controller. |
+| `.story-media-controller` | Klasse für das Styling der einzelnen Controller. |
+| `.active-media-controller` | Klasse für das Styling des aktiven Controllers. |

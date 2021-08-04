@@ -15,8 +15,6 @@ meta:
 Für das Storytelling auf einer Webseite ist es wichtig, dass der Nutzer schnell weiss, um was es geht. Mit einem Inhaltsverzeichnis (TOC)
 weiss der Nutzer direkt, was ihn erwartet.
 
-[[toc]]
-
 #### Komponent einsetzen
 Um ein sogenanntes **TOC** (Table of contents) zu erstellen, musst du einen Ort definieren, an dem es platziert werden soll.
 

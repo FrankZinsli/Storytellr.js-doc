@@ -12,7 +12,7 @@ meta:
 # Bilder
 ![Bilder in Storytellr.js](../../assets/illustration/undraw_image_viewer.svg)
 
-
+#### Inhalt in diesem Abschnitt
 [[toc]]
 
 ## Einzelnes Bild
@@ -94,11 +94,116 @@ Die folgenden **CSS-Klassen** können für ein individuelles Styling genutzt wer
 
 ## Slideshow
 <video width="1920" height="1080" autoplay  muted loop playsinline >
-  <source src="../../assets/videos/Header-Slideshow.mp4" type="video/mp4">
+  <source src="../../assets/videos/Image-Slideshow.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video> 
 
-#### Komponent einsetzen
-#### Generierter HTML-Code
-#### Verfügbare CSS-Klassen für Styling
+Die Bilder-Slideshow gehört zu der Grundausstattung des Storytellings auf Webseiten.
+Mit **Storytellr** kannst du eine sehr einfache Slideshow generieren und anschliessend individuell stylen.
 
+#### Komponent einsetzen
+Um den Slideshow-Komponenten einzusetzen, benötigst du folgendes `HTML-Grundgerüst`.
+Achte beim Einsatz der Bilder darauf, dass du die `alt`-Attribute definierst. 
+Dadurch können die Bilder besser bei Google gefunden werden.
+
+```html{4,10,16}
+<section class="story-section">
+  <div class="story-image-slideshow" id="imageSlideshow">
+    <div class="story-image">
+      <img alt="Beschreibung zu Bild 1" src="../src/assets/images/image1.jpg">
+      <div class="story-image-caption">
+        Beschreibung zu Bild 1
+      </div>
+    </div>
+    <div class="story-image">
+      <img alt="Beschreibung zu Bild 2" src="../src/assets/images/image2.jpg">
+      <div class="story-image-caption">
+        Beschreibung zu Bild 2
+      </div>
+    </div>
+    <div class="story-image">
+      <img alt="Beschreibung zu Bild 3" src="../src/assets/images/image3.jpg">
+      <div class="story-image-caption">
+        Beschreibung zu Bild 3
+      </div>
+    </div>
+  </div>
+</section>
+```
+
+Sobald das `HTML-Grundgerüst` für die Bilder-Slideshow steht, kannst du die Funktion `$story.ImageSlideshow()` aufrufen.
+Diese generiert dir die Slideshow.
+```js
+new $story.ImageSlideshow({
+  id: "imageSlideshow", // deine definierte ID
+  imageCount: true, // default: false
+  autoplay: 9000, // default: false
+  arrows: true, // default: false
+  controller: "dot" // default: false
+});
+```
+
+| Parameter        | Type     | Wert  | Beschreibung
+| ------------- | ------------- | ------------- |------------- |
+| `id`<span class="required-star">*</span> | `String` | "imageSlideshow"| Deine zuvor definierte ID im HTML. |
+| `imageCount` | `Boolean` | `true` / `false`| Die Nummerierung der Bilder wird oben-links angezeigt. |
+| `autoplay` | `Integer` | Zahl oder `false`| Die Slideshow wird automatisch abgespielt. (Angabe in Millisekunden). |
+| `arrows` | `Boolean` | `true` / `false` | Benötigst du Pfeile links und rechts als Navigation durch die Slideshow. |
+| `controller` | `String` | "dot" oder `false` | Zusätzliche Navigationsmöglichkeit über Bullet-Points. |
+
+#### Generierter HTML-Code
+Aus den obenstehenden Konfigurationen wird folgender HTML-Code generiert.
+
+```html
+<section class="story-section">
+  <div class="story-image-slideshow" id="imageSlideshow">
+    <div class="story-image" style="display: none;">
+      <div class="story-slideNumber">1 / 3</div>
+      <img alt="Beschreibung zu Bild 1" src="../src/assets/images/image1.jpg">
+      <div class="story-image-caption">
+        Beschreibung zu Bild 1
+      </div>
+    </div>
+    
+    <div class="story-image active-slide" style="display: block;">
+      <div class="story-slideNumber">2 / 3</div>
+      <img alt="Beschreibung zu Bild 2" src="../src/assets/images/image2.jpg">
+      <div class="story-image-caption">
+        Beschreibung zu Bild 2
+      </div>
+    </div>
+    
+    <div class="story-image" style="display: none;">
+      <div class="story-slideNumber">3 / 3</div>
+      <img alt="Beschreibung zu Bild 3" src="../src/assets/images/image3.jpg">
+      <div class="story-image-caption">
+        Beschreibung zu Bild 3
+      </div>
+    </div>
+    
+    <a class="story-prevImage" onclick="$story.ImageSlideshow.showNextSlide(&quot;imageSlideshow&quot;, -1)">❮</a>
+    <a class="story-nextImage" onclick="$story.ImageSlideshow.showNextSlide(&quot;imageSlideshow&quot;, 1)">❯</a>
+    
+    <div class="story-image-controllers">
+      <span class="story-image-controller-dot" onclick="$story.ImageSlideshow.showCurrentSlide(&quot;imageSlideshow&quot;, 0)"></span>
+      <span class="story-image-controller-dot active-controller" onclick="$story.ImageSlideshow.showCurrentSlide(&quot;imageSlideshow&quot;, 1)"></span>
+      <span class="story-image-controller-dot" onclick="$story.ImageSlideshow.showCurrentSlide(&quot;imageSlideshow&quot;, 2)"></span>
+    </div>
+  </div>
+</section>
+```
+
+#### Verfügbare CSS-Klassen für Styling
+Die folgenden **CSS-Klassen** können für ein individuelles Styling genutzt werden.
+
+| CSS-Klasse | Beschreibung |
+| ------------- | ------------- |
+| `.story-image-slideshow` | Klasse für das Styling des Wrappers der Slideshow. |
+| `.story-image` | Klasse für das Styling des Containers des Bildes. |
+| `.story-slideNumber` | Klasse für das Styling der Nummerierung der Bilder. |
+| `.story-image-caption` | Klasse für das Styling der Beschreibung der Bilder. |
+| `.story-prevImage` | Klasse für das Styling des Pfeiles zum vorherigen Bild. |
+| `.story-nextImage` | Klasse für das Styling des Pfeiles zum nächsten Bild. |
+| `.story-image-controllers` | Klasse für das Styling des Wrappers der Controller. |
+| `.story-image-controller-dot` | Klasse für das Styling der einzelnen Controller. |
+| `.active-controller` | Klasse für das Styling des aktiven Controllers. |

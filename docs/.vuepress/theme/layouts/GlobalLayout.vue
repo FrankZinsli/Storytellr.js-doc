@@ -2,7 +2,7 @@
 <template>
   <div id="global-layout">
     <component :is="layout"/>
-    <footer v-if="$page.path === '/guide/'" class="custom-global-footer footer-guide-styling">
+    <footer v-if="($page.path.startsWith('/guide/'))" class="custom-global-footer footer-guide-styling">
       <p class="imprint"> <a href="/imprint">Impressum</a> </p>
       <p>© 2021 <a href="https://frankzinsli.ch" target="_blank">Frank Zinsli</a></p>
     </footer>
@@ -25,7 +25,7 @@ export default {
         return 'Layout'
       }
       return 'NotFound'
-    }
+    },
   }
 }
 </script>

@@ -156,11 +156,12 @@ module.exports = {
                     '/guide/components/header-video',
                     '/guide/components/header-image',
                     '/guide/components/toc',
+                    '/guide/components/social-meta',
+                    '/guide/components/text',
                     '/guide/components/video',
                     '/guide/components/image',
                     '/guide/components/audio',
-                    '/guide/components/multimedial',
-                    '/guide/components/social-meta'
+                    '/guide/components/multimedial'
                 ]
             },
         ],

@@ -17,6 +17,7 @@ Wichtig ist dabei, dass die Qualität stimmt und die Sinne und Emotionen angereg
 
 Mit Storytellr lassen sich **Header-Bilder** sehr einfach einbinden.
 
+#### Inhalt in diesem Abschnitt
 [[toc]]
 
 ## Einzelnes Foto
@@ -85,6 +86,11 @@ Die folgenden **CSS-Klassen** können für ein individuelles Styling genutzt wer
 | `.story-header-image-text` | Wrapper für den Text im `<header>`. |
 
 ## Foto-Slideshow
+<video width="1920" height="1080" autoplay  muted loop playsinline >
+  <source src="../../assets/videos/Header-Slideshow.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video> 
+
 Hast du mehrere Bilder, die du gerne im `<header>` verwenden möchtest? Dann kannst du eine **Foto-Slideshow** erstellen.
 Mit einer Slideshow im `<header>` werden deine Bilder in einer automatisch abspielenden Slideshow angezeigt. Dadurch können mehr Sinne und Emotionen auf einmal hervorgerufen werden.
 
