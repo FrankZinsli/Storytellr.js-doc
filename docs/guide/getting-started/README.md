@@ -21,7 +21,7 @@ Projekt integrieren, oder du kannst ein Content Delivery Network (kurz CDN) nutz
 ## Download
 Wenn du Storytellr.js lokal in dein Projekt einbinden möchtest, dann kannst du die Bibliothek hier herunterladen.
 
-<a class="button-a" href="https://storytellr.netlify.app/downloads/Storytellr-V1.0.0.zip">
+<a class="button-a" href="https://storytellr.netlify.app/downloads/Storytellr-V1.0.1.zip">
   <button>
     Storytellr.js - Download
   </button>
@@ -32,7 +32,7 @@ Wenn du Storytellr.js lokal in dein Projekt einbinden möchtest, dann kannst du 
 
 *CDN*
 ```html
-<link href="https://cdn.jsdelivr.net/npm/storytellr@1.0.0/dist/css/storytellr.min.css" rel="stylesheet" crossorigin="anonymous">
+<link href="https://cdn.jsdelivr.net/npm/storytellr.js@1.0.1/storytellr.min.css" rel="stylesheet" crossorigin="anonymous">
 ```
 
 *Lokal*
@@ -44,7 +44,7 @@ Wenn du Storytellr.js lokal in dein Projekt einbinden möchtest, dann kannst du 
 
 *CDN*
 ```html
-<script src="https://cdn.jsdelivr.net/npm/storytellr@1.0.0/dist/js/storytellr.min.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/storytellr.js@1.0.1/storytellr.min.js" crossorigin="anonymous"></script>
 ```
 
 *Lokal*
@@ -84,7 +84,7 @@ Du kannst den Code kopieren und nach deinen eigenen Vorstellungen anpassen.
     <meta name="twitter:creator" content="@Autor">
     <meta name="twitter:image" content="https://storytellr.netlify.app/assets/logo/storytellr-large.svg">
   
-    <link href="https://cdn.jsdelivr.net/npm/storytellr@1.0.0/dist/css/storytellr.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/storytellr.js@1.0.1/storytellr.min.css" rel="stylesheet" crossorigin="anonymous">
 </head>
 
 <body>
@@ -99,7 +99,7 @@ Du kannst den Code kopieren und nach deinen eigenen Vorstellungen anpassen.
     </section>
   </main>
   
-  <script src="https://cdn.jsdelivr.net/npm/storytellr@1.0.0/dist/js/storytellr.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/storytellr.js@1.0.1/storytellr.min.js" crossorigin="anonymous"></script>
   <script>
     // Aufruf der Storytellr-Funktionen
   </script>
