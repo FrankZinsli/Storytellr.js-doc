@@ -52,6 +52,42 @@ Semantische HTML-Elemente sind Elemente, die eine spezielle Bedeutung haben. Goo
 | `<section>` | Wird genutzt, um die Webseite in verschiedene Abschnitte zu unterteilen. | <section>Section 1</section><section>Secttion 2</section> `<section>Section 1</section><section>Secttion 2</section>` |
 | `<article>` | Um einzelne `<section>` Elemente noch weiter zu unterteilen, kannst du `<article>` Elemente einsetzten. | <section><article>Article 1</article><article>Article 2</article></section> `<section><article>Article 1</article><article>Article 2</article></section>`|
 
+## Vordefinierte Klassen für Texte
+Damit du das grundlegende Styling für deine Texte erhältst, bietet dir Storytellr verschiedene Klassen mit einem grundlegenden Styling.
+
+```html{2-8}
+<section class="story-section">
+  <h1 class="story-text-h1">Title 1</h1>
+  <h2 class="story-text-h2">Title 1.1</h2>
+  <h1 class="story-text-h1">Title 2</h1>
+  <h2 class="story-text-h2">Title 2.1</h2>
+  <h3 class="story-text-h3">Title 2.2</h3>
+  <h4 class="story-text-h4">Title 2.3</h4>
+  <p class="story-text">Text in Paragraph</p>
+</section>
+```
+
+Dieses hinzufügen der Klassen führt dazu, dass die Texte wie folgt aussehen:
+![Storytellr Klassen für Texte](../../assets/images/Texte.jpg)
+
+### Warum nutzt Storytellr eigene Klassen für `h1` `h2` `h3` etc.
+Der Grund warum es Sinn macht, das Styling für die Überschriften in eigene Klassen zu verpacken ist, da es 
+so einfacher ist die Texte zu strukturieren. Viele Entwickler stylen direkt die Tags `<h1>`, `<h2>` etc. Dadurch 
+gerät man aber in Versuchung einen falschen Tag für die Überschrift zu verwenden nur, weil es vom Styling her passt.
+Dies ist zwar für den Nutzer kein Problem, SEO-Technisch ist es aber nicht optimal. 
+
+Storytellr hat aus diesem Grund die Überschriften auf einen Standard zurückgesetzt.
+
+```css
+h1,h2,h3,h4,h5,h6 {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1rem;
+}
+```
+
+Natürlich darfst du auch eigene Klassen für das Styling verwenden oder du erweiterst die Stroytellr-Klassen.
+
 ## Slideshow
 Mit **Storytellr.js** kannst du auch eine Slideshow für Texte nutzen. Das können zum Beispiel Fakten, Zitate oder Daten zu etwas sein.
 

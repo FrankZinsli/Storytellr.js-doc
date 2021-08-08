@@ -84,24 +84,50 @@ Du kannst den Code kopieren und nach deinen eigenen Vorstellungen anpassen.
     <meta name="twitter:creator" content="@Autor">
     <meta name="twitter:image" content="https://storytellr.netlify.app/assets/logo/storytellr-large.svg">
   
-    <link href="https://cdn.jsdelivr.net/npm/storytellr.js@1.0.1/storytellr.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/storytellr.js@1.0.1/storytellr.min.css">
 </head>
 
 <body>
-  <header class="story-header" id="YourHeaderImageSlideshowId">
-    <h1 class="story-text-h1">Titel</h1>
-    <h2 class="story-text-h2">Untertitel</h2>
+  <header class="story-header">
+    <!-- Dein Header -->
   </header>
   
   <main class="story-container">
+    <!-- Deine Geschichte -->
+
     <section class="story-section">
-      <h3 class="story-text-h3">Deine Section</h3>   
+      <!-- Dein Inhaltsverzeichnis der Geschichte -->
+      <h1 class="story-text-h1">Inhalt</h1>
+      <div class="story-table-of-contents" id="inhaltsverzeichnis"></div>
+    </section>
+
+    <section class="story-section">
+      <!-- Deine erste Section -->
+      <h1 id="titel-01" class="story-text-h1 story-toc-element-1">Title 1</h1>
+      <p class="story-text">
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore 
+        et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
+        Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+      </p>
+      
+      <h2 id="titel-02" class="story-text-h2 story-toc-element-2">Titel 2</h2>
+      <p class="story-text">
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+        et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+        Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+      </p>
     </section>
   </main>
   
-  <script src="https://cdn.jsdelivr.net/npm/storytellr.js@1.0.1/storytellr.min.js" crossorigin="anonymous"></script>
-  <script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/storytellr.js@1.0.1/storytellr.min.js" ></script>
+  <script type="text/javascript">
     // Aufruf der Storytellr-Funktionen
+    new $story.TocGenerator({
+      id: "inhaltsverzeichnis", // deine definierte ID
+      listType: "ol", // default: "ol" 
+      navLink: true // default: true
+    });
+
   </script>
 </body>
 </html>

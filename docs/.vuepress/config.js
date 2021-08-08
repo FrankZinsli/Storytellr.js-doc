@@ -88,18 +88,18 @@ module.exports = {
             noGlobalSocialShare: true
         }],
         ['@vuepress/register-components'],
-        ['code-switcher'],
+/*        ['code-switcher'], // remove*/
         ['img-lazy'],
         ['vuepress-plugin-code-copy', {
             staticIcon: true,
             successText: 'Kopiert!',
             color: '#f3722c',
         }],
-        ['container', {
+/*        ['container', { // remove
             type: 'theorem',
             before: info => `<div class="theorem"><p class="title">${info}</p>`,
             after: '</div>',
-        }],
+        }],*/
         ['robots', {
             host: "https://storytellr.netlify.app/",
             disallowAll: false,
@@ -134,7 +134,7 @@ module.exports = {
             { text: 'Start', link: '/' },
             { text: 'Über', link: '/about/' },
             { text: 'Guide', link: '/guide/' },
-            { text: 'Demo', link: 'https://google.com' }
+            { text: 'Demo', link: 'https://storytellr-demo.netlify.app' }
         ],
         sidebar: [
             {
