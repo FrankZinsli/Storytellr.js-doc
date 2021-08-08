@@ -28,7 +28,7 @@
 ---
 
 ## Beschreibung
-Storytellr.js ist eine JavaScript-Bibliothek für das Storytelling im Web. 
+Storytellr.js ist eine JavaScript-Bibliothek für das Storytelling im Web.
 Die Bibliothek wurde für Multimedia Production Studenten der Fachhochschule Graubünden programmiert.
 Sie soll den Studenten auf eine einfache Art und Weise ermöglichen, Ihre Projekte und Geschichten im Web zu erzählen.
 
@@ -43,24 +43,24 @@ Wenn du Storytellr.js lokal in dein Projekt einbinden möchtest, dann kannst du 
 
 *CDN*
 ```html
-<link href="https://cdn.jsdelivr.net/npm/storytellr.js@1.0.0/storytellr.min.css" rel="stylesheet" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/storytellr.js@1.0.0/storytellr.min.css">
 ```
 
 *Lokal*
 ```html
-<link href="../path/to/storytellr.min.css" rel="stylesheet" crossorigin="anonymous">
+<link rel="stylesheet" href="../path/to/storytellr.min.css">
 ```
 
 2. Kopiere den folgenden `<script>` Code und füge ihn vor deinem schliessenden `</bod>` Tag ein.
 
 *CDN*
 ```html
-<script src="https://cdn.jsdelivr.net/npm/storytellr.js@1.0.0/storytellr.min.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/storytellr.js@1.0.0/storytellr.min.js"></script>
 ```
 
 *Lokal*
 ```html
-<script src="../path/to/storytellr.min.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="../path/to/storytellr.min.js"></script>
 ```
 
 ## Starter-Template :rocket:
@@ -78,7 +78,7 @@ Du kannst den Code kopieren und nach deinen eigenen Vorstellungen anpassen.
     <title>Storytellr.js</title>
     <meta name="description" content="Die JavaScript-Bibliothek für Geschichtenerzähler" />
     <meta name="keywords" content="Storytellr.js, MMP-Storytelling, Storytelling im Web" />
-  
+
     <!-- Open Graph Tags für Facebook -->
     <meta property="og:title" content="Storytellr.js" />
     <meta property="og:type" content="website" />
@@ -86,7 +86,7 @@ Du kannst den Code kopieren und nach deinen eigenen Vorstellungen anpassen.
     <meta property="og:image" content="https://storytellr.netlify.app/assets/logo/storytellr-social-logo.png" />
     <meta property="og:description" content="Die JavaScript-Bibliothek für Geschichtenerzähler" />
     <meta property="og:site_name" content="Storytellr.js" />
-  
+
     <!-- Twitter Card für Twitter -->
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@Publisher">
@@ -94,26 +94,26 @@ Du kannst den Code kopieren und nach deinen eigenen Vorstellungen anpassen.
     <meta name="twitter:description" content="Die JavaScript-Bibliothek für Geschichtenerzähler">
     <meta name="twitter:creator" content="@Autor">
     <meta name="twitter:image" content="https://storytellr.netlify.app/assets/logo/storytellr-social-logo.png">
-  
-    <link href="https://cdn.jsdelivr.net/npm/storytellr.js@1.0.0/storytellr.min.css" rel="stylesheet" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/storytellr.js@1.0.0/storytellr.min.css">
 </head>
 
 <body>
-  <header class="story-header" id="YourHeaderImageSlideshowId">
+<header class="story-header">
     <h1 class="story-text-h1">Titel</h1>
     <h2 class="story-text-h2">Untertitel</h2>
-  </header>
-  
-  <main class="story-container">
+</header>
+
+<main class="story-container">
     <section class="story-section">
-      <h3 class="story-text-h3">Deine Section</h3>   
+        <h3 class="story-text-h3">Deine Section</h3>
     </section>
-  </main>
-  
-  <script src="https://cdn.jsdelivr.net/npm/storytellr.js@1.0.0/storytellr.min.js" crossorigin="anonymous"></script>
-  <script>
+</main>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/storytellr.js@1.0.0/storytellr.min.js"></script>
+<script>
     // Aufruf der Storytellr-Funktionen
-  </script>
+</script>
 </body>
 </html>
 ```
