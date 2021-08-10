@@ -30,7 +30,7 @@ Mache eine ausführliche Zielgruppenanalyse, damit du später deine Erkenntnisse
 
 Hier einige Tipps, die du bei deinen Texten nutzen kannst:
 1. **Emotion** &#8594; Nutze emotionalisierende Texte, gehe dabei auf deine Erkenntnisse aus der Zielgruppenanalyse ein.
-2. **Sinne** &#8594; Versuche, durch sensorisches Wording die Sinne der Zielgruppe anzusprechen.
+2. **Sinne** &#8594; Versuche durch sensorisches Wording die Sinne der Zielgruppe anzusprechen.
 3. **Fakten** &#8594; Verzichte auf langweilige Fakten. Spannende und unbekannte Fakten darfst du aber sehr gerne verwenden.
 4. **Erinnerungen** &#8594; Gehe bei deinen Texten auf Erinnerungswerte oder Erfahrungen der Zielgruppe ein. So kann sie sich besser mit dem Text identifizieren.
 5. **Struktur** &#8594; Strukturiere deine Texte und mache sie scannbar. Oft möchte die Zielgruppe längere Texte nur überfliegen.
@@ -43,7 +43,7 @@ Semantische HTML-Elemente sind Elemente, die eine spezielle Bedeutung haben. Goo
 | HTML-Tag        |  Beschreibung  | Beispiel
 | ------------- | ------------- | ------------- |
 | `<abbr>` | Wird für Abkürzungen genutzt. Beim Hovern über der Abkürzung wird die Beschreibung angezeigt. | <p><abbr title="Abbreviation">Abbr</abbr> ist die Abkürzung für Abkürzung.😊</p>  `<p><abbr title="Abbreviation">Abbr</abbr> ist die Abkürzung für Abkürzung.</p>` |
-| `<blockquote>` | Wird für Zitate genutzt. Beim Einsatz von `<blockquote>` kann mittels `<blockquote cite="">` direkt die Quelle des Zitats angegeben werden. | <blockquote cite="https://storytellr.netlify.app/downloads/Leitfaden%20zu%20Storytelling%20auf%20Webseiten.pdf"><p>Der Leitfaden wurde auf der Basis verschiedener wissenschaftlicher Methoden aufgebaut.</p></blockquote> `<blockquote cite="https://storytellr.netlify.app/downloads/Leitfaden%20zu%20Storytelling%20auf%20Webseiten.pdf"><p>Der Leitfaden wurde auf der Basis verschiedener Wissenschaftlicher Methoden aufgebaut.</p></blockquote>` |
+| `<blockquote>` | Wird für Zitate genutzt. Beim Einsatz von `<blockquote>` kann mittels `<blockquote cite="">` direkt die Quelle des Zitats angegeben werden. | <blockquote cite="https://storytellr.netlify.app/downloads/Leitfaden%20zu%20Storytelling%20auf%20Webseiten.pdf"><p>Der Leitfaden wurde auf der Basis verschiedener wissenschaftlicher Methoden aufgebaut.</p></blockquote> `<blockquote cite="https://storytellr.netlify.app/downloads/Leitfaden%20zu%20Storytelling%20auf%20Webseiten.pdf"><p>Der Leitfaden wurde auf der Basis verschiedener wissenschaftlicher Methoden aufgebaut.</p></blockquote>` |
 | `<dfn>` | Wird bei der Begriffsdefinition verwendet. | <p><dfn>Storytelling auf Webseiten</dfn> ist vereinfacht gesagt, das Erzählen von Geschichten auf einer Webseite. </p> `<p><dfn>Storytelling auf Webseiten</dfn> ist vereinfacht gesagt, das Erzählen von Geschichten auf einer Webseite. </p>`|
 | `<code>` | Der `<code>` Tag definiert einen Code-Schnipsel. | <p><code>Storytellr.js</code> vereinfacht das programmieren.</p> `<p><code>Storytellr.js</code> vereinfacht das programmieren.</p>` |
 | `<del>` | Manchmal möchtest du deinen Nutzern zeigen, welche Änderungen gemacht wurden. Mit `<del>` kannst du zeigen, welche Ausschnitte gelöscht wurden. | <p><del>Dieser Text wurde gelöscht.</del></p> `<p><del>Dieser Text wurde gelöscht.</del></p>`|

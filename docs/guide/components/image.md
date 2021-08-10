@@ -148,7 +148,7 @@ new $story.ImageSlideshow({
 | `id`<span class="required-star">*</span> | `String` | "imageSlideshow"| Deine zuvor definierte ID im HTML. |
 | `imageCount` | `Boolean` | `true` / `false`| Die Nummerierung der Bilder wird oben-links angezeigt. |
 | `autoplay` | `Integer` | Zahl oder `false`| Die Slideshow wird automatisch abgespielt. (Angabe in Millisekunden). |
-| `arrows` | `Boolean` | `true` / `false` | Benötigst du Pfeile links und rechts als Navigation durch die Slideshow. |
+| `arrows` | `Boolean` | `true` / `false` | Benötigst du Pfeile links und rechts als Navigation durch die Slideshow? |
 | `controller` | `String` | "dot" oder `false` | Zusätzliche Navigationsmöglichkeit über Bullet-Points. |
 
 #### Generierter HTML-Code

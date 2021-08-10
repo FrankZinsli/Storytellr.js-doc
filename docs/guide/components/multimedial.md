@@ -58,7 +58,7 @@ viele Sinne angesprochen und mit kleinen Erfolgserlebnissen durch die Interaktio
 Dieses Element kann beim richtigen Einsatz sehr positiv auf die Geschichte wirken.
 
 #### Komponent einsetzen
-Durch den nachfolgenden Aufbau kannst du einfach multimediale Slideshow mittels einer **Storytellr-Funktion** einfach generieren lassen.
+Durch den nachfolgenden Aufbau kannst du eine multimediale Slideshow mittels einer **Storytellr-Funktion** einfach generieren lassen.
 
 ```html
 <section class="story-section">

@@ -95,7 +95,7 @@ Hast du mehrere Bilder, die du gerne im `<header>` verwenden möchtest? Dann kan
 Mit einer Slideshow im `<header>` werden deine Bilder in einer automatisch abspielenden Slideshow angezeigt. Dadurch können mehr Sinne und Emotionen auf einmal hervorgerufen werden.
 
 #### Komponent einsetzen
-Um die **Foto-Slideshow** benötigst du ein etwas spezielleres `<html>`-Gerüst. Am einfachsten ist es, wenn du das nachfolgende Gerüst kopierst und für deinen Einsatzzweck anpasst.
+Um die **Foto-Slideshow** einzusetzen, benötigst du ein etwas spezielleres `<html>`-Gerüst. Am einfachsten ist es, wenn du das nachfolgende Gerüst kopierst und für deinen Einsatzzweck anpasst.
 1. Ändere die ID im `<header>`.
 2. Ändere die `src` in den `<img>`-Tags.
 3. Passe die `data-story-focus-left` und `data-story-focus-top` für jedes Bild an.
