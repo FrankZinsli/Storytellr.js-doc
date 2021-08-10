@@ -15,7 +15,7 @@ meta:
 
 ## Wie ist Storytellr entstanden?
 Storytellr ist eine JavaScript-Bibliothek für Multimedia Production (kurz MMP) Studenten.
-Sie soll den Studierenden das präsentieren von Projekten oder das Erzählen einer Geschichte im Web vereinfachen.
+Sie soll den Studierenden das Präsentieren von Projekten oder das Erzählen einer Geschichte im Web vereinfachen.
 
 Anhand von verschiedenen Komponenten, die das Storytelling unterstützen, können so individuelle Geschichten mit einer bestmöglichen
 Usability erzählt werden.
@@ -32,16 +32,16 @@ Die Komponenten wurden so entwickelt, dass sich der Nutzer voll und ganz auf den
 Eine einfache Handhabung des Inhalts ist für das Erzählen von der Geschichte essenziell.
 
 ## Storytelling auf einer Webseite
-Storytelling auf einer Webseite ist einfach gesagt, das erzählen von einer Geschichte auf einer Webseite.
-Im Gegensatz zu anderen Storytelling-Formaten, kann beim Storytelling auf einer Webseite zielgruppenorientierte Botschaften
+Storytelling auf einer Webseite ist einfach gesagt, das Erzählen von einer Geschichte auf einer Webseite.
+Im Gegensatz zu anderen Storytelling-Formaten kann beim Storytelling auf einer Webseite zielgruppenorientierte Botschaften
 über spezifische Distributionskanäle sehr genau an die Zielgruppe übermittelt werden. Zusätzlich hat man den grossen Vorteil gegenüber 
-anderen Storytelling-Formaten, dass man jegliche mediale Elemente einsetzen kann. Im Fersehen, Radio oder in Büchern etc. sind die 
+anderen Storytelling-Formaten, dass man jegliche mediale Elemente einsetzen kann. Im Fernsehen, Radio oder in Büchern etc. sind die 
 Auswahlmöglichkeiten jeweils beschränkt, wobei sie im Web unendlich sind.
 
 :::tip Definition
 Das Storytelling auf einer Webseite ist ein zielgruppenorientiertes Storytelling im Web, 
-wobei der Nutzer stark in den Aufbau der Ge-schichte miteinbezogen wird. 
-Im Gegensatz zu Büchern, Filmen, Hör-büchern und weiteren Formaten kann beim Storytelling 
+wobei der Nutzer stark in den Aufbau der Geschichte miteinbezogen wird. 
+Im Gegensatz zu Büchern, Filmen, Hörbüchern und weiteren Formaten kann beim Storytelling 
 auf einer Webseite auf nahezu jedes mediale Element zurückgegriffen werden. 
 Durch den Einsatz der verschiedenen Elemente wird die Geschichte in einer abwechslungsreichen 
 Art und Weise an den Rezipienten übermittelt.

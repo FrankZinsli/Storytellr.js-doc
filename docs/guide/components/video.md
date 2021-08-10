@@ -242,7 +242,7 @@ Zusätzlich kannst du alle Parameter die in [Lokal/ Komponent einsetzen](#lokal)
     </section>
 ```
 
-Wenn du den `HTML-Grundaufbau` erstellt hast, kannst du anschliessend die **Storytellr-Funktion** für multimediale-Slideshows
+Wenn du den `HTML-Grundaufbau` erstellt hast, kannst du anschliessend die **Storytellr-Funktion** für Multimediale-Slideshows
 aufrufen.
 
 ```js
@@ -255,7 +255,7 @@ new $story.MediaSlideshow({
 | Parameter        | Type     | Wert  | Beschreibung
 | ------------- | ------------- | ------------- |------------- |
 | `id`<span class="required-star">*</span> | `String` | videoSlideshow| Deine zuvor definierte ID im HTML. |
-| `autoplay` | `Boolean` | `true` / `false`| Sollen die Videos beim durchklicken der Slideshow automatisch gestartet und gestoppt werden? |
+| `autoplay` | `Boolean` | `true` / `false`| Sollen die Videos beim Durchklicken der Slideshow automatisch gestartet und gestoppt werden? |
 
 
 #### Generierter HTML-Code

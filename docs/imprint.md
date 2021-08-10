@@ -33,4 +33,7 @@ Die Urheber- und alle anderen Rechte an Bildern, Fotos oder Videos auf dieser We
 Alle genutzten Illustrationen stammen von [undraw](https://undraw.co/).  
 Alle auf unDraw veröffentlichten Bilder, Assets und Vektoren können kostenlos verwendet werden. Sie können für nicht-kommerzielle und kommerzielle Zwecke genutzt werden. Es muss weder den Urheber noch unDraw um Erlaubnis gebeten oder eine Quellenangabe gemacht werden.
 
+*Icons*  
+Genutzte Icons wie die des Apple Computers, iPhones und iPads wurden von [pngfind](https://www.pngfind.com/mpng/imhhwJ_apple-mac-computer-screen-png-mac-png-transparent/), [vhv.rs](https://www.vhv.rs/viewpic/bJobbw_ipad-pro-transparent-background-hd-png-download/) respektive [pngitem](https://www.pngitem.com/middle/bxRhJw_ipad-pro-template-png-transparent-png/) genutzt. 
+
 Quelle: [SwissAnwalt](https://www.swissanwalt.ch).

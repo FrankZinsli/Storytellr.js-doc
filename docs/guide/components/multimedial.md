@@ -26,7 +26,7 @@ Um diesen Komponenten einzusetzen, gibt es einen einfachen Trick.
 Dafür nutzt man den `HTML5` `<video>`-Tag.
 Nun setzt man als Standbild `poster` ein Foto und als `src` die Audio-Dateien.
 
-Im Einsatz sieht das ganze so aus:
+Im Einsatz sieht das Ganze so aus:
 ```html{3-9}
 <section class="story-section">
   <div class="story-media-image">
@@ -114,7 +114,7 @@ new $story.MediaSlideshow({
 | Parameter        | Type     | Wert  | Beschreibung
 | ------------- | ------------- | ------------- |------------- |
 | `id`<span class="required-star">*</span> | `String` | mediaSlideshow| Deine zuvor definierte ID im HTML. |
-| `autoplay` | `Boolean` | `true` / `false`| Sollen die Audios beim durchklicken der Slideshow automatisch gestartet und gestoppt werden? |
+| `autoplay` | `Boolean` | `true` / `false`| Sollen die Audios beim Durchklicken der Slideshow automatisch gestartet und gestoppt werden? |
 
 
 #### Generierter HTML-Code
