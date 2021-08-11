@@ -40,14 +40,14 @@ Auswahlmöglichkeiten jeweils beschränkt, wobei sie im Web unendlich sind.
 
 :::tip Definition
 Das Storytelling auf einer Webseite ist ein zielgruppenorientiertes Storytelling im Web, 
-wobei der Nutzer stark in den Aufbau der Geschichte miteinbezogen wird. 
+wobei die Nutzerinnen und Nutzer stark in den Aufbau der Geschichte miteinbezogen werden. 
 Im Gegensatz zu Büchern, Filmen, Hörbüchern und weiteren Formaten kann beim Storytelling 
 auf einer Webseite auf nahezu jedes mediale Element zurückgegriffen werden. 
 Durch den Einsatz der verschiedenen Elemente wird die Geschichte in einer abwechslungsreichen 
-Art und Weise an den Rezipienten übermittelt.
+Art und Weise an die Zielgruppe übermittelt
 
-Zusätzlich kann durch verschiedene Interaktionsmöglichkeiten der Nutzers in die Geschichte 
-miteinbezogen werden, was das immersive Erlebnis stark fördert.
+Zusätzlich kann durch verschiedene Interaktionsmöglichkeiten die Zielgruppe in die Geschichte 
+miteinbezogen werden, was das immersive Erlebnis stark fördert
 :::
 
 ## Der Leitfaden
